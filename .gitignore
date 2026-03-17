@@ -1,0 +1,28 @@
+
+# Eclipse
+.classpath
+.project
+.settings/
+*.launch
+
+# Build outputs
+build/
+bin/
+target/
+*.class
+
+# OS junk
+.DS_Store
+
+*.jar
+*.jar
+
+.metadata/
+build/
+Servers/
+.settings/
+.classpath
+.project
+.DS_Store
+*.log
+*.jar
