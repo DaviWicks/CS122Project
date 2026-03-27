@@ -1,28 +1,33 @@
-
-# Eclipse
-.classpath
-.project
-.settings/
-*.launch
-
-# Build outputs
-build/
-bin/
-target/
-*.class
-
-# OS junk
+# Mac system files
 .DS_Store
 
-*.jar
-*.jar
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 
-.metadata/
-build/
-Servers/
-.settings/
-.classpath
-.project
-.DS_Store
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDEs / Editors
+.vscode/
+.idea/
+*.iml
+
+# Eclipse (important for your case)
+eclipse-workspace/
+
+# Logs
 *.log
-*.jar
+
+# Temporary files
+*.tmp
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Environment variables
+.env
