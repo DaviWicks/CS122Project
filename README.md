@@ -5,7 +5,7 @@ Beatport Music Trends Analysis
 ## Authors
 
 * Davis Nguyen (Author #1)
-* Partner Name (Author #2)
+* Gloria B Castro (Author #2)
 
 ## Project Description
 
@@ -36,7 +36,8 @@ Data will be collected from publicly accessible Beatport charts using Python too
 
 ## Data Analysis and Visualization Plan (Author #2)
 
-The second author will analyze the collected data using Python libraries such as `pandas` and `numpy`. The analysis will focus on identifying trends such as the most frequent artists, dominant genres, and BPM distributions. Visualizations such as bar charts, line graphs, and histograms will be created using `matplotlib`. These visuals will help users interpret patterns in the data. This portion of the project will focus on transforming raw data into meaningful insights.
+For visualization, the program will generate multiple plots to clearly present the results of the analysis. A bar chart will be used to display the most popular genres based on their frequency in the dataset. A line graph (time series) will illustrate how certain genres or artists trend over time across Beatport charts. Additionally, a histogram will be used to show the distribution of BPM values, helping identify common tempo ranges in electronic music. These visualizations will be created using libraries such as Matplotlib or Seaborn.
+The visualizations will help users quickly interpret patterns and trends in the data, such as which genres are rising or declining in popularity and what tempo ranges dominate the charts.
 
 ## Future Improvements
 
