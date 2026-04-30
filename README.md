@@ -1,58 +1,180 @@
-# Project Title
-
-Beatport Music Trends Analysis
+# Beatport Music Trends Analysis
 
 ## Authors
 
-* Davis Nguyen (Author #1)
-* Gloria B Castro (Author #2)
+* Davis Nguyen (Data Collection & Organization)
+* Gloria B Castro (Analysis & Visualization)
+
+---
 
 ## Project Description
 
-This project analyzes electronic music trends using publicly available chart data from Beatport. The program will collect data such as track rankings, artists, genres, and BPM from Beatport charts. The data will be stored locally and organized for easy access and updates. Using this data, the project will identify trends such as popular genres, recurring artists, and tempo patterns. Finally, the program will generate visualizations to help users better understand how electronic music trends evolve over time.
+This project analyzes electronic music trends using publicly available chart data from BeatStats, which aggregates Beatport Top 100 rankings.
 
-## Project Outline / Plan
+The program extracts chart data such as:
 
-* Collect Beatport chart data (Top 100 or genre-specific charts)
-* Clean and store the data in CSV format
-* Build a user interface to explore the data
-* Analyze trends such as artist frequency and BPM distribution
-* Generate visualizations (graphs and charts)
-* Test and refine the program
-* Prepare final submission and presentation
+* track rankings
+* artists (including multiple artists per track)
+* genres
+* chart movement (rising tracks)
+* popularity (points)
+* chart longevity (days)
 
-## Interface Plan
+The data is structured into CSV files and used to analyze trends across genres, artists, and chart performance.
 
-The interface will allow users to explore Beatport chart data through an interactive system. A main page will allow users to select a genre or chart type. A second page will display detailed statistics and visualizations. The interface will include at least four widgets such as:
+---
 
-* Buttons to load or refresh chart data
-* Dropdown menu to select genre or chart
-* Search bar for artist or track name
-* Button to generate visualizations
+## Key Features
 
-## Data Collection and Storage Plan (Author #1)
+* Multi-artist parsing and collaboration analysis
+* Genre-based trend analysis across all Top 100 tracks
+* Chart movement tracking (rising tracks)
+* Track popularity and longevity analysis
+* Interactive Tkinter GUI for loading and viewing data
+* Sortable data table for user interaction
 
-Data will be collected from publicly accessible Beatport charts using Python tools such as `requests` and `BeautifulSoup`. The program will extract relevant information including track titles, artist names, rankings, genres, and BPM where available. The collected data will be cleaned and stored locally in CSV files to ensure it can be reused without repeatedly accessing the website. The storage structure will allow for easy updates and organization by chart type or genre. My role will focus on gathering the data efficiently and maintaining a clean, structured dataset.
+---
 
-## Data Analysis and Visualization Plan (Author #2)
+## Data Collection and Storage (Author #1)
 
-For visualization, the program will generate multiple plots to clearly present the results of the analysis. A bar chart will be used to display the most popular genres based on their frequency in the dataset. A line graph (time series) will illustrate how certain genres or artists trend over time across Beatport charts. Additionally, a histogram will be used to show the distribution of BPM values, helping identify common tempo ranges in electronic music. These visualizations will be created using libraries such as Matplotlib or Seaborn.
-The visualizations will help users quickly interpret patterns and trends in the data, such as which genres are rising or declining in popularity and what tempo ranges dominate the charts.
+Data is collected from publicly accessible BeatStats chart pages.
 
-## Future Improvements
+Due to anti-bot protections that block automated requests, the program parses saved HTML source files from the chart pages using BeautifulSoup. The extracted data includes:
 
-* Expand analysis across multiple genres
-* Track trends over time (weekly/monthly charts)
-* Add more advanced visualizations
-* Improve user interface design
-* Automate data updates
+* rank
+* rise amount (chart movement)
+* artist names
+* track title
+* genre
+* points
+* days on chart
+* Beatport track link
+
+The cleaned dataset is stored locally in CSV format for further analysis.
+
+---
+
+## Data Analysis and Visualization (Author #2)
+
+The dataset enables multiple forms of analysis, including:
+
+* Most common genres in the Top 100
+* Most frequent artists and collaborations
+* Tracks with the highest popularity (points)
+* Tracks with the longest chart duration (days)
+* Rising tracks based on chart movement
+* Number of artists per track (collaboration trends)
+
+Visualizations include:
+
+* Bar charts (top artists, genres)
+* Histograms (points, days)
+* Scatter plots (rank vs days)
+* Trend analysis of rising tracks
+
+---
+
+## Interface (Tkinter)
+
+The program uses a Tkinter-based GUI with two main pages:
+
+### 1. Data Collection Page
+
+* Load saved chart data
+* Automatically generate and update CSV files
+* View chart data in a sortable table
+* Inspect key metrics and summaries
+
+### 2. Analysis Page
+
+* Provides guidance for visualizations and analysis
+* Designed for data exploration and presentation
+
+---
 
 ## Installation
 
-1. Clone the repository
-2. Install required Python libraries
-3. Run the main program file
+1. Clone the repository:
 
-## License
+```
+git clone https://github.com/YOUR_USERNAME/CS122Project.git
+cd CS122Project
+```
 
-This project is licensed under the MIT License.
+2. Create and activate environment:
+
+```
+conda create -n cs122 python=3.10
+conda activate cs122
+```
+
+3. Install dependencies:
+
+```
+pip install pandas beautifulsoup4 lxml matplotlib
+```
+
+---
+
+## Usage
+
+1. Save the BeatStats Top 100 (All Genres) page source:
+
+   * Open in browser
+   * Right click → View Page Source
+   * Save as:
+
+     ```
+     data/raw/all_genres_chart_source.html
+     ```
+
+2. Run the application:
+
+```
+python main.py
+```
+
+3. In the GUI:
+
+   * Click **Load / Refresh Data**
+   * Data will be parsed and CSV files generated automatically
+   * Explore the dataset using the table
+
+---
+
+## Output Files
+
+Generated files include:
+
+```
+data/raw/all_genres_chart.csv
+data/processed/all_genres_chart_clean.csv
+data/processed/all_genres_artist_counts.csv
+data/processed/all_genres_genre_counts.csv
+```
+
+---
+
+## Limitations
+
+BeatStats uses anti-bot protection that prevents direct automated scraping using standard HTTP requests.
+
+To address this, the program parses saved HTML source from publicly accessible chart pages. This ensures reliable data extraction while working within access constraints.
+
+---
+
+## Future Improvements
+
+* Expand analysis across multiple time periods
+* Add support for additional genres
+* Improve visualization integration directly in the GUI
+* Automate periodic data updates
+* Incorporate additional metadata sources if available
+
+---
+
+## Summary
+
+This project transforms raw chart data into a structured dataset that enables meaningful analysis of electronic music trends, including popularity, collaboration patterns, and genre distribution.
+
+
