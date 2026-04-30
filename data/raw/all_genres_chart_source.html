@@ -1,0 +1,1259 @@
+
+<!doctype html>
+<head>
+	
+	<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TV9F68FR5Y" type="eabc8260c164f3f2546fd7d9-text/javascript"></script>
+<script type="eabc8260c164f3f2546fd7d9-text/javascript">
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-TV9F68FR5Y');
+</script>
+
+
+	
+	
+<meta charset="UTF-8">
+<meta name="DESCRIPTION" content="Rankings for Artists, Tracks and Labels based off the Beatport Top-100 charts">
+<meta name="KEYWORDS" content="beatport, charts, top, 100, trance, electro-house, electro-tech, rankings, labels, artists">
+    
+<link href="/_includes/bootstrap.min.css" rel="stylesheet" type="text/css" />
+<script src="/_includes/jquery.js" type="eabc8260c164f3f2546fd7d9-text/javascript"></script>
+<script src="/_includes/bootstrap.bundle.min.js" type="eabc8260c164f3f2546fd7d9-text/javascript"></script>
+<link href="/_includes/style.css?version=8" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+
+
+<script language="javascript" type="eabc8260c164f3f2546fd7d9-text/javascript">
+            function audioplayerget(str){
+                if (str==""){
+                  document.getElementById("footer").innerHTML="";
+                  return;
+                  }
+                xmlhttp=new XMLHttpRequest();
+                xmlhttp.onreadystatechange=function(){
+                    if (xmlhttp.readyState==4 && xmlhttp.status==200){
+                    document.getElementById("footer").innerHTML=xmlhttp.responseText;
+                    }
+                }
+                xmlhttp.open("GET","/_includes/audioplayer.php?BPID="+str,true);
+                xmlhttp.send();
+            }
+        </script>
+  
+  
+
+<title>BeatStats - Top Tracks</title>
+</head>
+
+
+
+
+<body >
+
+ 
+<div id="container">
+		
+		<div id="header">
+         
+			<div id="header-logo">
+            <a href='/'><img src="/_images/interface/logo_heading.png" width="944" height="66" alt=""/> </a></div>
+            
+
+
+            
+<div id="search-bar-container">
+    <!-- The form tag should encompass the input group -->
+    <form class="input-group" action='/search/search/index' method="post">
+        <input type="text" name="searchresult" class="form-control" placeholder="" required pattern="[a-zA-Z0-9-.\s'()]+" >
+        <button type="submit" class="input-group-text">
+            <i class="fas fa-search"></i> <!-- Font Awesome eyeglass icon -->
+        </button>
+    </form>
+</div>
+        	
+          <div id="header-top10">
+            <a href='/top10/home/list?genre=0&period=2'><img src="/_images/interface/topbar_top10_a.png" width="59" height="25" alt=""/></a>
+            </div>
+            
+          <div id="header-artists">
+            <a href='/artists/home/list?genre=0&period=2'><img src="/_images/interface/topbar_artists_a.png" width="66" height="25" alt=""/></a>
+          </div>
+        
+       	  <div id="header-tracks">
+            <a href='/tracks/home/list?genre=0&period=2'><img src="/_images/interface/topbar_tracks_b.png" width="66" height="25" alt=""/></a>
+          </div>
+            
+          <div id="header-labels">
+            <a href='/labels/home/list?genre=0&period=2'><img src="/_images/interface/topbar_labels_a.png" width="66" height="25" alt=""/></a>
+            </div>
+        
+        
+         <div id="header-timeselect3">
+         <a href='/tracks/home/list?genre=0&period=1'><img src="/_images/interface/time_selector_3_a.png" width="66" height="21" alt=""/></a>
+         </div>
+ 
+         <div id="header-timeselect12">
+         <a href='/tracks/home/list?genre=0&period=2'><img src="/_images/interface/time_selector_12_b.png" width="66" height="21" alt=""/></a>
+         </div>
+           
+         <div id="header-timeselectalltime">
+         <a href='/tracks/home/list?genre=0&period=3'><img src="/_images/interface/time_selector_alltime_a.png" width="55" height="21" alt=""/></a>
+         </div>       
+  
+		 <div id="header-timeselectyears">
+         <a href='/tracks/home/list?genre=0&period=21'><img src="/_images/interface/time_selector_years_a.png" width="46" height="21" alt=""/></a>
+         </div> 
+			
+        
+       	  <div id="header-genreselect">
+            
+	
+ 
+    <div class="genreselector">
+        <a href='#' data-bs-toggle="dropdown" aria-expanded="false">
+            TOP 100 (ALL GENRES)   <i class="fa fa-caret-down" style="font-size: 14px;"></i>
+
+			
+        </a>
+        <ul class="dropdown-menu multi-column columns-3" aria-labelledby="dropdownMenuButton">
+            <div class="row">
+                <div class="col-sm-4">
+					<ul class="multi-column-dropdown">
+					<li><a class='dropdown-item' href='/tracks/home/list?genre=0&period=2'> <span class='genre1'> TOP 100 (ALL GENRES)</span></a></li><li><a class='dropdown-item' href='/tracks/home/list?genre=95&period=2'><span class='genre1'>140 / DEEP DUBSTEP / GRIME</span></a></li><li><a class='dropdown-item' href='/tracks/home/list?genre=89&period=2'><span class='genre1'>AFRO HOUSE</span></a></li><li><a class='dropdown-item' href='/tracks/home/list?genre=98&period=2'><span class='genre1'>AMAPIANO</span></a></li><li><a class='dropdown-item' href='/tracks/home/list?genre=100&period=2'><span class='genre1'>AMBIENT / EXPERIMENTAL</span></a></li><li><a class='dropdown-item' href='/tracks/home/list?genre=85&period=2'><span class='genre1'>BASS / CLUB</span></a></li><li><a class='dropdown-item' href='/tracks/home/list?genre=91&period=2'><span class='genre1'>BASS HOUSE</span></a></li><li><a class='dropdown-item' href='/tracks/home/list?genre=9&period=2'><span class='genre1'>BREAKS / BREAKBEAT / UK BASS</span></a></li><li><a class='dropdown-item' href='/tracks/home/list?genre=39&period=2'><span class='genre1'>DANCE / POP</span></a></li><li><a class='dropdown-item' href='/tracks/home/list?genre=12&period=2'><span class='genre1'>DEEP HOUSE</span></a></li><li><a class='dropdown-item' href='/tracks/home/list?genre=16&period=2'><span class='genre1'>DJ TOOLS / ACAPELLAS DJ TOOLS</span></a></li><li><a class='dropdown-item' href='/tracks/home/list?genre=63&period=2'><span class='genre1'>DOWNTEMPO</span></a></li><li><a class='dropdown-item' href='/tracks/home/list?genre=1&period=2'><span class='genre1'>DRUM & BASS</span></a></li>					</ul>
+                </div>
+                <div class="col-sm-4">
+					<ul class="multi-column-dropdown">
+					<li><a class='dropdown-item' href='/tracks/home/list?genre=18&period=2'><span class='genre1'>DUBSTEP</span></a></li><li><a class='dropdown-item' href='/tracks/home/list?genre=94&period=2'><span class='genre1'>ELECTRO (CLASSIC / DETROIT / MODERN)</span></a></li><li><a class='dropdown-item' href='/tracks/home/list?genre=3&period=2'><span class='genre1'>ELECTRONICA</span></a></li><li><a class='dropdown-item' href='/tracks/home/list?genre=81&period=2'><span class='genre1'>FUNKY HOUSE</span></a></li><li><a class='dropdown-item' href='/tracks/home/list?genre=8&period=2'><span class='genre1'>HARD DANCE / HARDCORE / NEO RAVE</span></a></li><li><a class='dropdown-item' href='/tracks/home/list?genre=2&period=2'><span class='genre1'>HARD TECHNO</span></a></li><li><a class='dropdown-item' href='/tracks/home/list?genre=5&period=2'><span class='genre1'>HOUSE</span></a></li><li><a class='dropdown-item' href='/tracks/home/list?genre=37&period=2'><span class='genre1'>INDIE DANCE</span></a></li><li><a class='dropdown-item' href='/tracks/home/list?genre=97&period=2'><span class='genre1'>JACKIN HOUSE</span></a></li><li><a class='dropdown-item' href='/tracks/home/list?genre=96&period=2'><span class='genre1'>MAINSTAGE</span></a></li><li><a class='dropdown-item' href='/tracks/home/list?genre=90&period=2'><span class='genre1'>MELODIC HOUSE & TECHNO</span></a></li><li><a class='dropdown-item' href='/tracks/home/list?genre=14&period=2'><span class='genre1'>MINIMAL / DEEP TECH</span></a></li><li><a class='dropdown-item' href='/tracks/home/list?genre=50&period=2'><span class='genre1'>NU DISCO / DISCO</span></a></li>					</ul>
+                </div>
+                <div class="col-sm-4">
+					<ul class="multi-column-dropdown">
+<li><a class='dropdown-item' href='/tracks/home/list?genre=93&period=2'><span class='genre1'>ORGANIC HOUSE</span></a></li><li><a class='dropdown-item' href='/tracks/home/list?genre=15&period=2'><span class='genre1'>PROGRESSIVE HOUSE</span></a></li><li><a class='dropdown-item' href='/tracks/home/list?genre=13&period=2'><span class='genre1'>PSY-TRANCE</span></a></li><li><a class='dropdown-item' href='/tracks/home/list?genre=11&period=2'><span class='genre1'>TECH HOUSE</span></a></li><li><a class='dropdown-item' href='/tracks/home/list?genre=6&period=2'><span class='genre1'>TECHNO (PEAK TIME / DRIVING)</span></a></li><li><a class='dropdown-item' href='/tracks/home/list?genre=92&period=2'><span class='genre1'>TECHNO (RAW / DEEP / HYPNOTIC)</span></a></li><li><a class='dropdown-item' href='/tracks/home/list?genre=7&period=2'><span class='genre1'>TRANCE (MAIN FLOOR)</span></a></li><li><a class='dropdown-item' href='/tracks/home/list?genre=99&period=2'><span class='genre1'>TRANCE (RAW / DEEP / HYPNOTIC)</span></a></li><li><a class='dropdown-item' href='/tracks/home/list?genre=38&period=2'><span class='genre1'>TRAP / FUTURE BASS</span></a></li><li><a class='dropdown-item' href='/tracks/home/list?genre=86&period=2'><span class='genre1'>UK GARAGE / BASSLINE</span></a></li><li><a class='dropdown-item' href='/tracks/home/list?genre=1089&period=2'><span class='genre1'>HYPE - AFRO HOUSE</span></a></li><li><a class='dropdown-item' href='/tracks/home/list?genre=1039&period=2'><span class='genre1'>HYPE - DANCE / ELECTRO POP</span></a></li><li><a class='dropdown-item' href='/tracks/home/list?genre=1012&period=2'><span class='genre1'>HYPE - DEEP HOUSE</span></a></li></ul>
+                </div>
+                <div class="col-sm-4">
+					<ul class="multi-column-dropdown">
+     <li><a class='dropdown-item' href='/tracks/home/list?genre=1001&period=2'><span class='genre1'>HYPE - DRUM & BASS</span></a></li><li><a class='dropdown-item' href='/tracks/home/list?genre=1003&period=2'><span class='genre1'>HYPE - ELECTRONICA</span></a></li><li><a class='dropdown-item' href='/tracks/home/list?genre=1005&period=2'><span class='genre1'>HYPE - HOUSE</span></a></li><li><a class='dropdown-item' href='/tracks/home/list?genre=1037&period=2'><span class='genre1'>HYPE - INDIE DANCE</span></a></li><li><a class='dropdown-item' href='/tracks/home/list?genre=1096&period=2'><span class='genre1'>HYPE - MAINSTAGE</span></a></li><li><a class='dropdown-item' href='/tracks/home/list?genre=1090&period=2'><span class='genre1'>HYPE - MELODIC HOUSE & TECHNO</span></a></li><li><a class='dropdown-item' href='/tracks/home/list?genre=1014&period=2'><span class='genre1'>HYPE - MINIMAL / DEEP TECH</span></a></li><li><a class='dropdown-item' href='/tracks/home/list?genre=1093&period=2'><span class='genre1'>HYPE - ORGANIC HOUSE / DOWNTEMPO</span></a></li><li><a class='dropdown-item' href='/tracks/home/list?genre=1015&period=2'><span class='genre1'>HYPE - PROGRESSIVE HOUSE</span></a></li><li><a class='dropdown-item' href='/tracks/home/list?genre=1011&period=2'><span class='genre1'>HYPE - TECH HOUSE</span></a></li><li><a class='dropdown-item' href='/tracks/home/list?genre=1006&period=2'><span class='genre1'>HYPE - TECHNO (PEAK TIME / DRIVING)</span></a></li><li><a class='dropdown-item' href='/tracks/home/list?genre=1000&period=2'><span class='genre1'>HYPE - TOP 100 (ALL GENRES)</span></a></li><li><a class='dropdown-item' href='/tracks/home/list?genre=1007&period=2'><span class='genre1'>HYPE - TRANCE</span></a></li></ul>                    
+                    
+                    
+                </div>
+            </div>
+        </ul>
+            
+             - <a href='#' data-bs-toggle='dropdown' aria-expanded='false'>FILTER BY KEY <i class='fa fa-caret-down' style='font-size: 14px;'></i>
+        </a>
+        <ul class='dropdown-menu columns-1' aria-labelledby='dropdownMenuButton'><li><a class='dropdown-item' href=''><span class='genre1'><strong>MAJOR</strong></span></a></li><li><a class='dropdown-item' href='/tracks/home/list?genre=0&period=2&key=8'><span class='genre1'>1B - B MAJOR</span></a></li><li><a class='dropdown-item' href='/tracks/home/list?genre=0&period=2&key=10'><span class='genre1'>2B - F# MAJOR</span></a></li><li><a class='dropdown-item' href='/tracks/home/list?genre=0&period=2&key=12'><span class='genre1'>3B - C# MAJOR</span></a></li><li><a class='dropdown-item' href='/tracks/home/list?genre=0&period=2&key=14'><span class='genre1'>4B - G# MAJOR</span></a></li><li><a class='dropdown-item' href='/tracks/home/list?genre=0&period=2&key=16'><span class='genre1'>5B - D# MAJOR</span></a></li><li><a class='dropdown-item' href='/tracks/home/list?genre=0&period=2&key=18'><span class='genre1'>6B - A# MAJOR</span></a></li><li><a class='dropdown-item' href='/tracks/home/list?genre=0&period=2&key=20'><span class='genre1'>7B - F MAJOR</span></a></li><li><a class='dropdown-item' href='/tracks/home/list?genre=0&period=2&key=22'><span class='genre1'>8B - C MAJOR</span></a></li><li><a class='dropdown-item' href='/tracks/home/list?genre=0&period=2&key=24'><span class='genre1'>9B - G MAJOR</span></a></li><li><a class='dropdown-item' href='/tracks/home/list?genre=0&period=2&key=2'><span class='genre1'>10B - D MAJOR</span></a></li><li><a class='dropdown-item' href='/tracks/home/list?genre=0&period=2&key=4'><span class='genre1'>11B - A MAJOR</span></a></li><li><a class='dropdown-item' href='/tracks/home/list?genre=0&period=2&key=6'><span class='genre1'>12B - E MAJOR</span></a></li><hr><li><a class='dropdown-item' href=''><span class='genre1'><strong>MINOR</strong></span></a></li><li><a class='dropdown-item' href='/tracks/home/list?genre=0&period=2&key=77'><span class='genre1'>1A - G# MINOR</span></a></li><li><a class='dropdown-item' href='/tracks/home/list?genre=0&period=2&key=9'><span class='genre1'>2A - D# MINOR</span></a></li><li><a class='dropdown-item' href='/tracks/home/list?genre=0&period=2&key=11'><span class='genre1'>3A - A# MINOR</span></a></li><li><a class='dropdown-item' href='/tracks/home/list?genre=0&period=2&key=13'><span class='genre1'>4A - F MINOR</span></a></li><li><a class='dropdown-item' href='/tracks/home/list?genre=0&period=2&key=15'><span class='genre1'>5A - C MINOR</span></a></li><li><a class='dropdown-item' href='/tracks/home/list?genre=0&period=2&key=17'><span class='genre1'>6A - G MINOR</span></a></li><li><a class='dropdown-item' href='/tracks/home/list?genre=0&period=2&key=19'><span class='genre1'>7A - D MINOR</span></a></li><li><a class='dropdown-item' href='/tracks/home/list?genre=0&period=2&key=21'><span class='genre1'>8A - A MINOR</span></a></li><li><a class='dropdown-item' href='/tracks/home/list?genre=0&period=2&key=23'><span class='genre1'>9A - E MINOR</span></a></li><li><a class='dropdown-item' href='/tracks/home/list?genre=0&period=2&key=1'><span class='genre1'>10A - B MINOR</span></a></li><li><a class='dropdown-item' href='/tracks/home/list?genre=0&period=2&key=3'><span class='genre1'>11A - F# MINOR</span></a></li><li><a class='dropdown-item' href='/tracks/home/list?genre=0&period=2&key=5'><span class='genre1'>12A - C# MINOR</span></a></li></ul> - <a href='#' data-bs-toggle='dropdown' aria-expanded='false'>FILTER BY DATE <i class='fa fa-caret-down' style='font-size: 14px;'></i>
+        </a>
+        <ul class='dropdown-menu columns-1b' aria-labelledby='dropdownMenuButton'><li><a class='dropdown-item' href='/tracks/home/list?genre=0&period=2&datefilter=2026-04-23'><span class='genre1'>TRACKS RELEASED 7 DAYS</span></a></li><li><a class='dropdown-item' href='/tracks/home/list?genre=0&period=2&datefilter=2026-04-16'><span class='genre1'>TRACKS RELEASED 14 DAYS</span></a></li><li><a class='dropdown-item' href='/tracks/home/list?genre=0&period=2&datefilter=2026-03-31'><span class='genre1'>TRACKS RELEASED LAST 30 DAYS</span></a></li><li><a class='dropdown-item' href='/tracks/home/list?genre=0&period=2&datefilter=2026-03-01'><span class='genre1'>TRACKS RELEASED LAST 60 DAYS</span></a></li></ul>            
+    </div>
+
+
+
+            
+
+            </div>            
+         
+         
+            
+         <div id="header-rule">
+         </div>
+        
+        
+        
+        </div><!-- #header -->
+		
+		<div id="content-offset">
+    
+        <div id='content-artists'>
+             <div id="top10artistchart-header"><span class="charttextname-a">TOP <strong>TRACKS</strong></span></div><a href='/track/track/20625808'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>1</div><div id='top10artistchart-image'><img src='/images/track/small/20625808.jpg?version=27739' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>JONAS BLUE, MALIVE</div>
+                <div id='top10trackchart-title'><strong>Edge of Desire</strong></div>
+                <div id='top10trackchart-points'><strong>21094</strong> POINTS / <strong>285</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #8d4654;'>HOUSE</span></div></div>
+                <a href='https://www.beatport.com/track/edge-of-desire/20625808' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='20625808' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/20601832'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>2</div><div id='top10artistchart-image'><img src='/images/track/small/20601832.jpg?version=45557' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>TINASHE, DISCO LINES</div>
+                <div id='top10trackchart-title'><strong>No Broke Boys</strong></div>
+                <div id='top10trackchart-points'><strong>17922</strong> POINTS / <strong>258</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #ff7dbb;'>DANCE / POP</span></div></div>
+                <a href='https://www.beatport.com/track/no-broke-boys/20601832' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='20601832' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/20505201'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>3</div><div id='top10artistchart-image'><img src='/images/track/small/20505201.jpg?version=48820' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>MAU P</div>
+                <div id='top10trackchart-title'><strong>Like I Like It</strong></div>
+                <div id='top10trackchart-points'><strong>16951</strong> POINTS / <strong>251</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #ff9368;'>TECH HOUSE</span></div></div>
+                <a href='https://www.beatport.com/track/like-i-like-it/20505201' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='20505201' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/22357262'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>4</div><div id='top10artistchart-image'><img src='/images/track/small/22357262.jpg?version=12395' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>HUGEL, SOLTO (FR)</div>
+                <div id='top10trackchart-title'><strong>Jamaican (Bam Bam)</strong></div>
+                <div id='top10trackchart-points'><strong>16248</strong> POINTS / <strong>173</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #ff5c68;'>AFRO HOUSE</span></div></div>
+                <a href='https://www.beatport.com/track/jamaican-bam-bam/22357262' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='22357262' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/22236272'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>5<div id='top10artistchart-arrow'><img src='/_images/interface/uparrow_green.png' width='16' height='16' title='UP 3 in the last month'></div><div id='top10artistchart-arrowtext'>3</div></div><div id='top10artistchart-image'><img src='/images/track/small/22236272.jpg?version=38943' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>JAMBACK</div>
+                <div id='top10trackchart-title'><strong>Positive</strong></div>
+                <div id='top10trackchart-points'><strong>15176</strong> POINTS / <strong>173</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #ff7779;'>MINIMAL / DEEP TECH</span></div></div>
+                <a href='https://www.beatport.com/track/positive/22236272' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='22236272' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/20564331'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>6</div><div id='top10artistchart-image'><img src='/images/track/small/20564331.jpg?version=13379' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>TOMAN</div>
+                <div id='top10trackchart-title'><strong>Verano En NY</strong></div>
+                <div id='top10trackchart-points'><strong>13549</strong> POINTS / <strong>228</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #ff9368;'>TECH HOUSE</span></div></div>
+                <a href='https://www.beatport.com/track/verano-en-ny/20564331' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='20564331' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/21309496'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>7</div><div id='top10artistchart-image'><img src='/images/track/small/21309496.jpg?version=22784' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>CID, TAYLR RENEE</div>
+                <div id='top10trackchart-title'><strong>Fancy $hit </strong></div>
+                <div id='top10trackchart-points'><strong>13304</strong> POINTS / <strong>170</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #ff9368;'>TECH HOUSE</span></div></div>
+                <a href='https://www.beatport.com/track/fancy-hit/21309496' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='21309496' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/20311844'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>8</div><div id='top10artistchart-image'><img src='/images/track/small/20311844.jpg?version=45240' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>PROSPA</div>
+                <div id='top10trackchart-title'><strong>Don't Stop</strong></div>
+                <div id='top10trackchart-points'><strong>12579</strong> POINTS / <strong>237</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #ff9368;'>TECH HOUSE</span></div></div>
+                <a href='https://www.beatport.com/track/dont-stop/20311844' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='20311844' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/21977538'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>9</div><div id='top10artistchart-image'><img src='/images/track/small/21977538.jpg?version=50547' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>PROSPA, KOSMO KINT</div>
+                <div id='top10trackchart-title'><strong>Love Songs (feat. Kosmo Kint)</strong></div>
+                <div id='top10trackchart-points'><strong>12178</strong> POINTS / <strong>174</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #8d4654;'>HOUSE</span></div></div>
+                <a href='https://www.beatport.com/track/love-songs-feat-kosmo-kint/21977538' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='21977538' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/21774346'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>10<div id='top10artistchart-arrow'><img src='/_images/interface/uparrow_green.png' width='16' height='16' title='UP 1 in the last month'></div><div id='top10artistchart-arrowtext'>1</div></div><div id='top10artistchart-image'><img src='/images/track/small/21774346.jpg?version=31042' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>DA HOOL, CASSIAN, YOTTO</div>
+                <div id='top10trackchart-title'><strong>Love Parade</strong></div>
+                <div id='top10trackchart-points'><strong>11337</strong> POINTS / <strong>154</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #a93d4c;'>MELODIC HOUSE & TECHNO</span></div></div>
+                <a href='https://www.beatport.com/track/love-parade/21774346' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='21774346' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/21531599'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>11<div id='top10artistchart-arrow'><img src='/_images/interface/uparrow_green.png' width='16' height='16' title='UP 1 in the last month'></div><div id='top10artistchart-arrowtext'>1</div></div><div id='top10artistchart-image'><img src='/images/track/small/21531599.jpg?version=33695' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>SIDEPIECE</div>
+                <div id='top10trackchart-title'><strong>Cry For You</strong></div>
+                <div id='top10trackchart-points'><strong>11170</strong> POINTS / <strong>156</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #ff7dbb;'>DANCE / POP</span></div></div>
+                <a href='https://www.beatport.com/track/cry-for-you/21531599' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='21531599' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/22366666'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>12<div id='top10artistchart-arrow'><img src='/_images/interface/uparrow_green.png' width='16' height='16' title='UP 9 in the last month'></div><div id='top10artistchart-arrowtext'>9</div></div><div id='top10artistchart-image'><img src='/images/track/small/22366666.jpg?version=23365' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>ULTRA NATE, HUGEL</div>
+                <div id='top10trackchart-title'><strong>Free (You Got To Live)</strong></div>
+                <div id='top10trackchart-points'><strong>10713</strong> POINTS / <strong>151</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #ff5c68;'>AFRO HOUSE</span></div></div>
+                <a href='https://www.beatport.com/track/free-you-got-to-live/22366666' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='22366666' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/20692753'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>13<div id='top10artistchart-arrow'><img src='/_images/interface/uparrow_green.png' width='16' height='16' title='UP 1 in the last month'></div><div id='top10artistchart-arrowtext'>1</div></div><div id='top10artistchart-image'><img src='/images/track/small/20692753.jpg?version=51041' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>BABES ON THE RUN</div>
+                <div id='top10trackchart-title'><strong>Power</strong></div>
+                <div id='top10trackchart-points'><strong>10626</strong> POINTS / <strong>224</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #3b767b;'>FUNKY HOUSE</span></div></div>
+                <a href='https://www.beatport.com/track/power/20692753' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='20692753' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/21200241'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>14<div id='top10artistchart-arrow'><img src='/_images/interface/uparrow_green.png' width='16' height='16' title='UP 1 in the last month'></div><div id='top10artistchart-arrowtext'>1</div></div><div id='top10artistchart-image'><img src='/images/track/small/21200241.jpg?version=40139' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>CHRIS LAKE, THE CHEMICAL BROTHERS</div>
+                <div id='top10trackchart-title'><strong>Galvanize</strong></div>
+                <div id='top10trackchart-points'><strong>10594</strong> POINTS / <strong>146</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #ff7dbb;'>DANCE / POP</span></div></div>
+                <a href='https://www.beatport.com/track/galvanize/21200241' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='21200241' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/20450483'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>15<div id='top10artistchart-arrow'><img src='/_images/interface/uparrow_green.png' width='16' height='16' title='UP 1 in the last month'></div><div id='top10artistchart-arrowtext'>1</div></div><div id='top10artistchart-image'><img src='/images/track/small/20450483.jpg?version=46223' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>CHRIS LORENZO</div>
+                <div id='top10trackchart-title'><strong>Appetite</strong></div>
+                <div id='top10trackchart-points'><strong>10406</strong> POINTS / <strong>162</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #ff9368;'>TECH HOUSE</span></div></div>
+                <a href='https://www.beatport.com/track/appetite/20450483' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='20450483' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/20515390'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>16<div id='top10artistchart-arrow'><img src='/_images/interface/uparrow_green.png' width='16' height='16' title='UP 2 in the last month'></div><div id='top10artistchart-arrowtext'>2</div></div><div id='top10artistchart-image'><img src='/images/track/small/20515390.jpg?version=63110' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>MAX DEAN, LUKE DEAN, LOCKY (UK)</div>
+                <div id='top10trackchart-title'><strong>Can't Decide</strong></div>
+                <div id='top10trackchart-points'><strong>9683</strong> POINTS / <strong>189</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #3b767b;'>DEEP HOUSE</span></div></div>
+                <a href='https://www.beatport.com/track/cant-decide/20515390' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='20515390' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/20462394'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>17<div id='top10artistchart-arrow'><img src='/_images/interface/uparrow_green.png' width='16' height='16' title='UP 3 in the last month'></div><div id='top10artistchart-arrowtext'>3</div></div><div id='top10artistchart-image'><img src='/images/track/small/20462394.jpg?version=25291' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>CALVIN HARRIS, CLEMENTINE DOUGLAS</div>
+                <div id='top10trackchart-title'><strong>Blessings</strong></div>
+                <div id='top10trackchart-points'><strong>9601</strong> POINTS / <strong>132</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #ff7dbb;'>DANCE / POP</span></div></div>
+                <a href='https://www.beatport.com/track/blessings/20462394' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='20462394' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/20601589'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>18<div id='top10artistchart-arrow'><img src='/_images/interface/uparrow_green.png' width='16' height='16' title='UP 4 in the last month'></div><div id='top10artistchart-arrowtext'>4</div></div><div id='top10artistchart-image'><img src='/images/track/small/20601589.jpg?version=50543' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>AUDIO BULLYS, CHRIS LORENZO, MAX STYLER</div>
+                <div id='top10trackchart-title'><strong>London's On Fire</strong></div>
+                <div id='top10trackchart-points'><strong>9283</strong> POINTS / <strong>154</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #ff9368;'>TECH HOUSE</span></div></div>
+                <a href='https://www.beatport.com/track/londons-on-fire/20601589' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='20601589' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/21250305'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>19<div id='top10artistchart-arrow'><img src='/_images/interface/uparrow_green.png' width='16' height='16' title='UP 5 in the last month'></div><div id='top10artistchart-arrowtext'>5</div></div><div id='top10artistchart-image'><img src='/images/track/small/21250305.jpg?version=6996' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>KATE LINN, PROVI, FANTOMEL</div>
+                <div id='top10trackchart-title'><strong>Dame Un Grrr (Provi Remix)</strong></div>
+                <div id='top10trackchart-points'><strong>9148</strong> POINTS / <strong>146</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #ff5c68;'>AFRO HOUSE</span></div></div>
+                <a href='https://www.beatport.com/track/dame-un-grrr-provi-remix/21250305' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='21250305' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/22095452'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>20<div id='top10artistchart-arrow'><img src='/_images/interface/uparrow_green.png' width='16' height='16' title='UP 5 in the last month'></div><div id='top10artistchart-arrowtext'>5</div></div><div id='top10artistchart-image'><img src='/images/track/small/22095452.jpg?version=58998' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>FALLON (IE)</div>
+                <div id='top10trackchart-title'><strong>Diet Coke</strong></div>
+                <div id='top10trackchart-points'><strong>8996</strong> POINTS / <strong>117</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #ff9368;'>TECH HOUSE</span></div></div>
+                <a href='https://www.beatport.com/track/diet-coke/22095452' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='22095452' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/23140771'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>21<div id='top10artistchart-arrow'><img src='/_images/interface/uparrow_green.png' width='16' height='16' title='UP 22 in the last month'></div><div id='top10artistchart-arrowtext'>22</div></div><div id='top10artistchart-image'><img src='/images/track/small/23140771.jpg?version=29794' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>BRUNELLO</div>
+                <div id='top10trackchart-title'><strong>Ghost Dance</strong></div>
+                <div id='top10trackchart-points'><strong>8836</strong> POINTS / <strong>121</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #0bb6ff;'>INDIE DANCE</span></div></div>
+                <a href='https://www.beatport.com/track/ghost-dance/23140771' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='23140771' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/20088037'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>22<div id='top10artistchart-arrow'><img src='/_images/interface/uparrow_green.png' width='16' height='16' title='UP 5 in the last month'></div><div id='top10artistchart-arrowtext'>5</div></div><div id='top10artistchart-image'><img src='/images/track/small/20088037.jpg?version=57851' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>VANCO, AYA.SYSTEM</div>
+                <div id='top10trackchart-title'><strong>Ma Tnsani (Yalla Habibi) (feat. AYA.SYSTEM)</strong></div>
+                <div id='top10trackchart-points'><strong>8792</strong> POINTS / <strong>149</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #ff5c68;'>AFRO HOUSE</span></div></div>
+                <a href='https://www.beatport.com/track/ma-tnsani-yalla-habibi-feat-ayasystem/20088037' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='20088037' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/20291674'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>23</div><div id='top10artistchart-image'><img src='/images/track/small/20291674.jpg?version=6627' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>CHRIS LAKE, RAGIE BAN</div>
+                <div id='top10trackchart-title'><strong>Toxic</strong></div>
+                <div id='top10trackchart-points'><strong>8520</strong> POINTS / <strong>138</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #ff9368;'>TECH HOUSE</span></div></div>
+                <a href='https://www.beatport.com/track/toxic/20291674' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='20291674' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/22735704'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>24<div id='top10artistchart-arrow'><img src='/_images/interface/uparrow_green.png' width='16' height='16' title='UP 8 in the last month'></div><div id='top10artistchart-arrowtext'>8</div></div><div id='top10artistchart-image'><img src='/images/track/small/22735704.jpg?version=39395' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>SUPERNOVA</div>
+                <div id='top10trackchart-title'><strong>Velvet Avenue</strong></div>
+                <div id='top10trackchart-points'><strong>8452</strong> POINTS / <strong>134</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #8d4654;'>HOUSE</span></div></div>
+                <a href='https://www.beatport.com/track/velvet-avenue/22735704' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='22735704' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/21026596'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>25<div id='top10artistchart-arrow'><img src='/_images/interface/uparrow_green.png' width='16' height='16' title='UP 3 in the last month'></div><div id='top10artistchart-arrowtext'>3</div></div><div id='top10artistchart-image'><img src='/images/track/small/21026596.jpg?version=6315' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>VINTER (BR)</div>
+                <div id='top10trackchart-title'><strong>Space Pump</strong></div>
+                <div id='top10trackchart-points'><strong>8297</strong> POINTS / <strong>124</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #8d4654;'>HOUSE</span></div></div>
+                <a href='https://www.beatport.com/track/space-pump/21026596' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='21026596' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/20832384'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>26<div id='top10artistchart-arrow'><img src='/_images/interface/uparrow_green.png' width='16' height='16' title='UP 3 in the last month'></div><div id='top10artistchart-arrowtext'>3</div></div><div id='top10artistchart-image'><img src='/images/track/small/20832384.jpg?version=60213' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>EMPIRE OF THE SUN, BLOND:ISH</div>
+                <div id='top10trackchart-title'><strong>Walking On A Dream</strong></div>
+                <div id='top10trackchart-points'><strong>8211</strong> POINTS / <strong>133</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #ff7dbb;'>DANCE / POP</span></div></div>
+                <a href='https://www.beatport.com/track/walking-on-a-dream/20832384' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='20832384' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/20307568'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>27</div><div id='top10artistchart-image'><img src='/images/track/small/20307568.jpg?version=61696' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>JOCELYN BROWN, LUKE ALESSI, CHLOé CAILLET</div>
+                <div id='top10trackchart-title'><strong>The One</strong></div>
+                <div id='top10trackchart-points'><strong>8097</strong> POINTS / <strong>125</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #8d4654;'>HOUSE</span></div></div>
+                <a href='https://www.beatport.com/track/the-one/20307568' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='20307568' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/20085129'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>28</div><div id='top10artistchart-image'><img src='/images/track/small/20085129.jpg?version=54581' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>MAU P</div>
+                <div id='top10trackchart-title'><strong>The Less I Know The Better</strong></div>
+                <div id='top10trackchart-points'><strong>7838</strong> POINTS / <strong>139</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #ff9368;'>TECH HOUSE</span></div></div>
+                <a href='https://www.beatport.com/track/the-less-i-know-the-better/20085129' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='20085129' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/22448219'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>29<div id='top10artistchart-arrow'><img src='/_images/interface/uparrow_green.png' width='16' height='16' title='UP 2 in the last month'></div><div id='top10artistchart-arrowtext'>2</div></div><div id='top10artistchart-image'><img src='/images/track/small/22448219.jpg?version=56521' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>FEZZO</div>
+                <div id='top10trackchart-title'><strong>Kids</strong></div>
+                <div id='top10trackchart-points'><strong>7786</strong> POINTS / <strong>84</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #ff7dbb;'>DANCE / POP</span></div></div>
+                <a href='https://www.beatport.com/track/kids/22448219' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='22448219' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/20969830'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>30<div id='top10artistchart-arrow'><img src='/_images/interface/uparrow_green.png' width='16' height='16' title='UP 3 in the last month'></div><div id='top10artistchart-arrowtext'>3</div></div><div id='top10artistchart-image'><img src='/images/track/small/20969830.jpg?version=4729' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>KURD MAVERICK, HUGEL</div>
+                <div id='top10trackchart-title'><strong>PYHU (Put Your Hands Up)</strong></div>
+                <div id='top10trackchart-points'><strong>7590</strong> POINTS / <strong>119</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #ff5c68;'>AFRO HOUSE</span></div></div>
+                <a href='https://www.beatport.com/track/pyhu-put-your-hands-up/20969830' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='20969830' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/20661162'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>31<div id='top10artistchart-arrow'><img src='/_images/interface/uparrow_green.png' width='16' height='16' title='UP 3 in the last month'></div><div id='top10artistchart-arrowtext'>3</div></div><div id='top10artistchart-image'><img src='/images/track/small/20661162.jpg?version=58961' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>SHAKEDOWN, LAYTON GIORDANI, ANYMA (OFC)</div>
+                <div id='top10trackchart-title'><strong>At Night (Anyma x Layton Giordani Extended Remix)</strong></div>
+                <div id='top10trackchart-points'><strong>7542</strong> POINTS / <strong>123</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #a93d4c;'>MELODIC HOUSE & TECHNO</span></div></div>
+                <a href='https://www.beatport.com/track/at-night/20661162' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='20661162' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/20889654'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>32<div id='top10artistchart-arrow'><img src='/_images/interface/uparrow_green.png' width='16' height='16' title='UP 3 in the last month'></div><div id='top10artistchart-arrowtext'>3</div></div><div id='top10artistchart-image'><img src='/images/track/small/20889654.jpg?version=42774' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>JULIAN FIJMA</div>
+                <div id='top10trackchart-title'><strong>Get Stupid</strong></div>
+                <div id='top10trackchart-points'><strong>7539</strong> POINTS / <strong>124</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #ff7779;'>MINIMAL / DEEP TECH</span></div></div>
+                <a href='https://www.beatport.com/track/get-stupid/20889654' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='20889654' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/20566956'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>33<div id='top10artistchart-arrow'><img src='/_images/interface/uparrow_green.png' width='16' height='16' title='UP 3 in the last month'></div><div id='top10artistchart-arrowtext'>3</div></div><div id='top10artistchart-image'><img src='/images/track/small/20566956.jpg?version=42888' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>BOBBY SHMURDA, SIDEPIECE</div>
+                <div id='top10trackchart-title'><strong>Cash Out</strong></div>
+                <div id='top10trackchart-points'><strong>7506</strong> POINTS / <strong>134</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #ff9368;'>TECH HOUSE</span></div></div>
+                <a href='https://www.beatport.com/track/cash-out/20566956' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='20566956' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/20327131'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>34</div><div id='top10artistchart-image'><img src='/images/track/small/20327131.jpg?version=28678' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>RÜFÜS DU SOL</div>
+                <div id='top10trackchart-title'><strong>In the Moment (Adriatique Extended Remix)</strong></div>
+                <div id='top10trackchart-points'><strong>7498</strong> POINTS / <strong>155</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #a93d4c;'>MELODIC HOUSE & TECHNO</span></div></div>
+                <a href='https://www.beatport.com/track/in-the-moment/20327131' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='20327131' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/21628116'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>35<div id='top10artistchart-arrow'><img src='/_images/interface/uparrow_green.png' width='16' height='16' title='UP 2 in the last month'></div><div id='top10artistchart-arrowtext'>2</div></div><div id='top10artistchart-image'><img src='/images/track/small/21628116.jpg?version=50923' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>MODJO, SPARROW & BARBOSSA, KOSHI, DAYMAAN, SPARROW (CH)</div>
+                <div id='top10trackchart-title'><strong>Lady (Hear Me Tonight) - Remix</strong></div>
+                <div id='top10trackchart-points'><strong>7469</strong> POINTS / <strong>120</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #ff5c68;'>AFRO HOUSE</span></div></div>
+                <a href='https://www.beatport.com/track/lady-hear-me-tonight-remix/21628116' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='21628116' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/23308330'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>36<div id='top10artistchart-arrow'><img src='/_images/interface/uparrow_green.png' width='16' height='16' title='UP 42 in the last month'></div><div id='top10artistchart-arrowtext'>42</div></div><div id='top10artistchart-image'><img src='/images/track/small/23308330.jpg?version=27568' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>MAU P</div>
+                <div id='top10trackchart-title'><strong>neck </strong></div>
+                <div id='top10trackchart-points'><strong>7340</strong> POINTS / <strong>82</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #ff9368;'>TECH HOUSE</span></div></div>
+                <a href='https://www.beatport.com/track/neck/23308330' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='23308330' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/23443670'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>37<div id='top10artistchart-arrow'><img src='/_images/interface/uparrow_green.png' width='16' height='16' title='UP 48 in the last month'></div><div id='top10artistchart-arrowtext'>48</div></div><div id='top10artistchart-image'><img src='/images/track/small/23443670.jpg?version=42693' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>TRACE (UZ)</div>
+                <div id='top10trackchart-title'><strong>Good Time</strong></div>
+                <div id='top10trackchart-points'><strong>7337</strong> POINTS / <strong>81</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #8d4654;'>HOUSE</span></div></div>
+                <a href='https://www.beatport.com/track/good-time/23443670' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='23443670' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/20362602'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>38</div><div id='top10artistchart-image'><img src='/images/track/small/20362602.jpg?version=3745' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>BISCITS</div>
+                <div id='top10trackchart-title'><strong>Crush </strong></div>
+                <div id='top10trackchart-points'><strong>7210</strong> POINTS / <strong>107</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #ff9368;'>TECH HOUSE</span></div></div>
+                <a href='https://www.beatport.com/track/crush/20362602' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='20362602' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/20895024'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>39</div><div id='top10artistchart-image'><img src='/images/track/small/20895024.jpg?version=43391' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>NATE DOGG, KOLTER</div>
+                <div id='top10trackchart-title'><strong>Liquor Store</strong></div>
+                <div id='top10trackchart-points'><strong>6986</strong> POINTS / <strong>92</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #8d4654;'>HOUSE</span></div></div>
+                <a href='https://www.beatport.com/track/liquor-store/20895024' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='20895024' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/20790162'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>40</div><div id='top10artistchart-image'><img src='/images/track/small/20790162.jpg?version=9975' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>CAMELPHAT, ELDERBROOK, ARTBAT</div>
+                <div id='top10trackchart-title'><strong>Cola</strong></div>
+                <div id='top10trackchart-points'><strong>6957</strong> POINTS / <strong>98</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #ff9368;'>TECH HOUSE</span></div></div>
+                <a href='https://www.beatport.com/track/cola/20790162' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='20790162' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/20962298'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>41</div><div id='top10artistchart-image'><img src='/images/track/small/20962298.jpg?version=52320' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>BONAFIQUE</div>
+                <div id='top10trackchart-title'><strong>Monologue </strong></div>
+                <div id='top10trackchart-points'><strong>6953</strong> POINTS / <strong>154</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #0bb6ff;'>INDIE DANCE</span></div></div>
+                <a href='https://www.beatport.com/track/monologue/20962298' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='20962298' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/22480525'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>42<div id='top10artistchart-arrow'><img src='/_images/interface/uparrow_green.png' width='16' height='16' title='UP 6 in the last month'></div><div id='top10artistchart-arrowtext'>6</div></div><div id='top10artistchart-image'><img src='/images/track/small/22480525.jpg?version=39424' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>NICK CURLY, JOëLLA JACKSON</div>
+                <div id='top10trackchart-title'><strong>Attention </strong></div>
+                <div id='top10trackchart-points'><strong>6937</strong> POINTS / <strong>138</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #3b767b;'>DEEP HOUSE</span></div></div>
+                <a href='https://www.beatport.com/track/attention/22480525' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='22480525' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/23451068'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>43<div id='top10artistchart-arrow'><img src='/_images/interface/uparrow_green.png' width='16' height='16' title='UP 36 in the last month'></div><div id='top10artistchart-arrowtext'>36</div></div><div id='top10artistchart-image'><img src='/images/track/small/23451068.jpg?version=50794' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>ESSE (US)</div>
+                <div id='top10trackchart-title'><strong>Make My Day</strong></div>
+                <div id='top10trackchart-points'><strong>6857</strong> POINTS / <strong>84</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #ff9368;'>TECH HOUSE</span></div></div>
+                <a href='https://www.beatport.com/track/make-my-day/23451068' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='23451068' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/22738898'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>44</div><div id='top10artistchart-image'><img src='/images/track/small/22738898.jpg?version=52217' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>VINTAGE CULTURE, GABSS</div>
+                <div id='top10trackchart-title'><strong>Lost</strong></div>
+                <div id='top10trackchart-points'><strong>6804</strong> POINTS / <strong>76</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #a93d4c;'>MELODIC HOUSE & TECHNO</span></div></div>
+                <a href='https://www.beatport.com/track/lost/22738898' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='22738898' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/20156008'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>45</div><div id='top10artistchart-image'><img src='/images/track/small/20156008.jpg?version=30798' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>EMANUELE ESPOSITO, GIANNI ROMANO, HELEN TESFAZGHI, &FRIENDS</div>
+                <div id='top10trackchart-title'><strong>It's Not Right</strong></div>
+                <div id='top10trackchart-points'><strong>6753</strong> POINTS / <strong>126</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #ff5c68;'>AFRO HOUSE</span></div></div>
+                <a href='https://www.beatport.com/track/its-not-right/20156008' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='20156008' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/20633751'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>46</div><div id='top10artistchart-image'><img src='/images/track/small/20633751.jpg?version=62201' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>SAMM (BE)</div>
+                <div id='top10trackchart-title'><strong>Body Language</strong></div>
+                <div id='top10trackchart-points'><strong>6636</strong> POINTS / <strong>90</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #8d4654;'>HOUSE</span></div></div>
+                <a href='https://www.beatport.com/track/body-language/20633751' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='20633751' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/23451235'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>47<div id='top10artistchart-arrow'><img src='/_images/interface/uparrow_green.png' width='16' height='16' title='UP 34 in the last month'></div><div id='top10artistchart-arrowtext'>34</div></div><div id='top10artistchart-image'><img src='/images/track/small/23451235.jpg?version=25601' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>JOSHWA</div>
+                <div id='top10trackchart-title'><strong>Out of My Mind </strong></div>
+                <div id='top10trackchart-points'><strong>6466</strong> POINTS / <strong>82</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #ff9368;'>TECH HOUSE</span></div></div>
+                <a href='https://www.beatport.com/track/out-of-my-mind/23451235' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='23451235' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/23904036'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>48<div id='top10artistchart-arrow'><img src='/_images/interface/uparrow_green.png' width='16' height='16' title='UP 51 in the last month'></div><div id='top10artistchart-arrowtext'>51</div></div><div id='top10artistchart-image'><img src='/images/track/small/23904036.jpg?version=24439' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>REINIER ZONNEVELD, GORDO</div>
+                <div id='top10trackchart-title'><strong>Loco Loco</strong></div>
+                <div id='top10trackchart-points'><strong>6448</strong> POINTS / <strong>75</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #ff7dbb;'>DANCE / POP</span></div></div>
+                <a href='https://www.beatport.com/track/loco-loco/23904036' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='23904036' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/20674436'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>49</div><div id='top10artistchart-image'><img src='/images/track/small/20674436.jpg?version=31251' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>ADAM PORT, STRYV, MALACHIII</div>
+                <div id='top10trackchart-title'><strong>Positions</strong></div>
+                <div id='top10trackchart-points'><strong>6424</strong> POINTS / <strong>91</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #ff5c68;'>AFRO HOUSE</span></div></div>
+                <a href='https://www.beatport.com/track/positions/20674436' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='20674436' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/20796447'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>50</div><div id='top10artistchart-image'><img src='/images/track/small/20796447.jpg?version=64961' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>SCRIPT</div>
+                <div id='top10trackchart-title'><strong>WTF</strong></div>
+                <div id='top10trackchart-points'><strong>6324</strong> POINTS / <strong>106</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #ff9368;'>TECH HOUSE</span></div></div>
+                <a href='https://www.beatport.com/track/wtf/20796447' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='20796447' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/20528357'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>51</div><div id='top10artistchart-image'><img src='/images/track/small/20528357.jpg?version=40152' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>MK, CHRYSTAL</div>
+                <div id='top10trackchart-title'><strong>Dior</strong></div>
+                <div id='top10trackchart-points'><strong>6297</strong> POINTS / <strong>95</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #8d4654;'>HOUSE</span></div></div>
+                <a href='https://www.beatport.com/track/dior/20528357' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='20528357' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/22741059'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>52</div><div id='top10artistchart-image'><img src='/images/track/small/22741059.jpg?version=27735' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>MESTO</div>
+                <div id='top10trackchart-title'><strong>Caramelle</strong></div>
+                <div id='top10trackchart-points'><strong>6272</strong> POINTS / <strong>85</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #ff6c77;'>MAINSTAGE</span></div></div>
+                <a href='https://www.beatport.com/track/caramelle/22741059' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='22741059' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/20128472'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>53</div><div id='top10artistchart-image'><img src='/images/track/small/20128472.jpg?version=49716' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>MARSHALL JEFFERSON, MAESIC, SALOMé DAS</div>
+                <div id='top10trackchart-title'><strong>Life Is Simple (Move Your Body)</strong></div>
+                <div id='top10trackchart-points'><strong>6219</strong> POINTS / <strong>100</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #ff5c68;'>AFRO HOUSE</span></div></div>
+                <a href='https://www.beatport.com/track/life-is-simple-move-your-body/20128472' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='20128472' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/21357834'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>54</div><div id='top10artistchart-image'><img src='/images/track/small/21357834.jpg?version=11453' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>MR. BELT & WEZOL, RUZE</div>
+                <div id='top10trackchart-title'><strong>Ain't Nobody </strong></div>
+                <div id='top10trackchart-points'><strong>6183</strong> POINTS / <strong>92</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #8d4654;'>HOUSE</span></div></div>
+                <a href='https://www.beatport.com/track/aint-nobody/21357834' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='21357834' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/22866908'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>55</div><div id='top10artistchart-image'><img src='/images/track/small/22866908.jpg?version=23446' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>DISCIP</div>
+                <div id='top10trackchart-title'><strong>Pull Up</strong></div>
+                <div id='top10trackchart-points'><strong>6110</strong> POINTS / <strong>80</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #ff9368;'>TECH HOUSE</span></div></div>
+                <a href='https://www.beatport.com/track/pull-up/22866908' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='22866908' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/20719741'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>56</div><div id='top10artistchart-image'><img src='/images/track/small/20719741.jpg?version=20018' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>L.P. RHYTHM</div>
+                <div id='top10trackchart-title'><strong>Versatile</strong></div>
+                <div id='top10trackchart-points'><strong>6022</strong> POINTS / <strong>89</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #8d4654;'>HOUSE</span></div></div>
+                <a href='https://www.beatport.com/track/versatile/20719741' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='20719741' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/20470408'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>57</div><div id='top10artistchart-image'><img src='/images/track/small/20470408.jpg?version=23223' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>TIESTO, ODD MOB, GOODBOYS</div>
+                <div id='top10trackchart-title'><strong>Won't Be Possible</strong></div>
+                <div id='top10trackchart-points'><strong>5971</strong> POINTS / <strong>91</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #ff7dbb;'>DANCE / POP</span></div></div>
+                <a href='https://www.beatport.com/track/wont-be-possible/20470408' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='20470408' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/23011269'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>58</div><div id='top10artistchart-image'><img src='/images/track/small/23011269.jpg?version=53249' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>THREE DRIVES, THREE DRIVES ON A VINYL, MAX STYLER</div>
+                <div id='top10trackchart-title'><strong>Greece 2000</strong></div>
+                <div id='top10trackchart-points'><strong>5772</strong> POINTS / <strong>80</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #2b908f;'>TRANCE (MAIN FLOOR)</span></div></div>
+                <a href='https://www.beatport.com/track/greece-2000/23011269' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='23011269' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/20572171'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>59<div id='top10artistchart-arrow'><img src='/_images/interface/uparrow_green.png' width='16' height='16' title='UP 1 in the last month'></div><div id='top10artistchart-arrowtext'>1</div></div><div id='top10artistchart-image'><img src='/images/track/small/20572171.jpg?version=44243' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>ALAIA & GALLO</div>
+                <div id='top10trackchart-title'><strong>Lipstick</strong></div>
+                <div id='top10trackchart-points'><strong>5696</strong> POINTS / <strong>114</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #ff9368;'>TECH HOUSE</span></div></div>
+                <a href='https://www.beatport.com/track/lipstick/20572171' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='20572171' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/22424419'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>60<div id='top10artistchart-arrow'><img src='/_images/interface/uparrow_green.png' width='16' height='16' title='UP 1 in the last month'></div><div id='top10artistchart-arrowtext'>1</div></div><div id='top10artistchart-image'><img src='/images/track/small/22424419.jpg?version=38975' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>ODD MOB, OMNOM, HYPERBEAM</div>
+                <div id='top10trackchart-title'><strong>Coming Up (It's Dare)</strong></div>
+                <div id='top10trackchart-points'><strong>5682</strong> POINTS / <strong>84</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #ff7dbb;'>DANCE / POP</span></div></div>
+                <a href='https://www.beatport.com/track/coming-up-its-dare/22424419' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='22424419' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/20533994'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>61<div id='top10artistchart-arrow'><img src='/_images/interface/uparrow_green.png' width='16' height='16' title='UP 1 in the last month'></div><div id='top10artistchart-arrowtext'>1</div></div><div id='top10artistchart-image'><img src='/images/track/small/20533994.jpg?version=28212' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>MPH</div>
+                <div id='top10trackchart-title'><strong>Raw</strong></div>
+                <div id='top10trackchart-points'><strong>5645</strong> POINTS / <strong>130</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #ff8e89;'>UK GARAGE / BASSLINE</span></div></div>
+                <a href='https://www.beatport.com/track/raw/20533994' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='20533994' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/21111811'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>62<div id='top10artistchart-arrow'><img src='/_images/interface/uparrow_green.png' width='16' height='16' title='UP 1 in the last month'></div><div id='top10artistchart-arrowtext'>1</div></div><div id='top10artistchart-image'><img src='/images/track/small/21111811.jpg?version=11751' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>CALVIN HARRIS, D.O.D</div>
+                <div id='top10trackchart-title'><strong>Sweet Nothing</strong></div>
+                <div id='top10trackchart-points'><strong>5635</strong> POINTS / <strong>86</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #ff7dbb;'>DANCE / POP</span></div></div>
+                <a href='https://www.beatport.com/track/sweet-nothing/21111811' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='21111811' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/20431852'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>63<div id='top10artistchart-arrow'><img src='/_images/interface/uparrow_green.png' width='16' height='16' title='UP 1 in the last month'></div><div id='top10artistchart-arrowtext'>1</div></div><div id='top10artistchart-image'><img src='/images/track/small/20431852.jpg?version=15257' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>HECTOR COUTO, ALEJANDRO PAZ</div>
+                <div id='top10trackchart-title'><strong>El House</strong></div>
+                <div id='top10trackchart-points'><strong>5486</strong> POINTS / <strong>89</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #8d4654;'>HOUSE</span></div></div>
+                <a href='https://www.beatport.com/track/el-house/20431852' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='20431852' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/22384690'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>64<div id='top10artistchart-arrow'><img src='/_images/interface/uparrow_green.png' width='16' height='16' title='UP 1 in the last month'></div><div id='top10artistchart-arrowtext'>1</div></div><div id='top10artistchart-image'><img src='/images/track/small/22384690.jpg?version=56606' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>EMANUEL SATIE</div>
+                <div id='top10trackchart-title'><strong>Give It All</strong></div>
+                <div id='top10trackchart-points'><strong>5473</strong> POINTS / <strong>85</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #8d4654;'>HOUSE</span></div></div>
+                <a href='https://www.beatport.com/track/give-it-all/22384690' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='22384690' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/21251156'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>65<div id='top10artistchart-arrow'><img src='/_images/interface/uparrow_green.png' width='16' height='16' title='UP 2 in the last month'></div><div id='top10artistchart-arrowtext'>2</div></div><div id='top10artistchart-image'><img src='/images/track/small/21251156.jpg?version=7438' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>ODD MOB, OMNOM, HYPERBEAM</div>
+                <div id='top10trackchart-title'><strong>System</strong></div>
+                <div id='top10trackchart-points'><strong>5387</strong> POINTS / <strong>78</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #ff9368;'>TECH HOUSE</span></div></div>
+                <a href='https://www.beatport.com/track/system/21251156' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='21251156' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/20488794'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>66<div id='top10artistchart-arrow'><img src='/_images/interface/uparrow_green.png' width='16' height='16' title='UP 2 in the last month'></div><div id='top10artistchart-arrowtext'>2</div></div><div id='top10artistchart-image'><img src='/images/track/small/20488794.jpg?version=923' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>MOBY, BLOND:ISH, KIKO FRANCO</div>
+                <div id='top10trackchart-title'><strong>Natural Blues</strong></div>
+                <div id='top10trackchart-points'><strong>5359</strong> POINTS / <strong>73</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #8d4654;'>HOUSE</span></div></div>
+                <a href='https://www.beatport.com/track/natural-blues/20488794' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='20488794' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/24508685'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>67<div id='top10artistchart-arrow'><img src='/_images/interface/uparrow_green.png' width='16' height='16' title='UP 155 in the last month'></div><div id='top10artistchart-arrowtext'>155</div></div><div id='top10artistchart-image'><img src='/images/track/small/24508685.jpg?version=60789' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>ANOTR, 54 ULTRA</div>
+                <div id='top10trackchart-title'><strong>Talk To You </strong></div>
+                <div id='top10trackchart-points'><strong>5345</strong> POINTS / <strong>54</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #8d4654;'>HOUSE</span></div></div>
+                <a href='https://www.beatport.com/track/talk-to-you/24508685' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='24508685' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/22203336'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>68<div id='top10artistchart-arrow'><img src='/_images/interface/uparrow_green.png' width='16' height='16' title='UP 1 in the last month'></div><div id='top10artistchart-arrowtext'>1</div></div><div id='top10artistchart-image'><img src='/images/track/small/22203336.jpg?version=41321' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>SONNY FODERA, D.O.D, POPPY BASKCOMB</div>
+                <div id='top10trackchart-title'><strong>Think About Us</strong></div>
+                <div id='top10trackchart-points'><strong>5322</strong> POINTS / <strong>119</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #ff7dbb;'>DANCE / POP</span></div></div>
+                <a href='https://www.beatport.com/track/think-about-us/22203336' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='22203336' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/22354597'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>69<div id='top10artistchart-arrow'><img src='/_images/interface/uparrow_green.png' width='16' height='16' title='UP 1 in the last month'></div><div id='top10artistchart-arrowtext'>1</div></div><div id='top10artistchart-image'><img src='/images/track/small/22354597.jpg?version=53895' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>TINI GESSLER</div>
+                <div id='top10trackchart-title'><strong>For The Soul</strong></div>
+                <div id='top10trackchart-points'><strong>5305</strong> POINTS / <strong>92</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #ff9368;'>TECH HOUSE</span></div></div>
+                <a href='https://www.beatport.com/track/for-the-soul/22354597' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='22354597' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/23900747'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>70<div id='top10artistchart-arrow'><img src='/_images/interface/uparrow_green.png' width='16' height='16' title='UP 26 in the last month'></div><div id='top10artistchart-arrowtext'>26</div></div><div id='top10artistchart-image'><img src='/images/track/small/23900747.jpg?version=35778' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>MILKY, MALL GRAB</div>
+                <div id='top10trackchart-title'><strong>Just The Way You Are</strong></div>
+                <div id='top10trackchart-points'><strong>5302</strong> POINTS / <strong>82</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #8d4654;'>HOUSE</span></div></div>
+                <a href='https://www.beatport.com/track/just-the-way-you-are/23900747' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='23900747' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/22015205'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>71</div><div id='top10artistchart-image'><img src='/images/track/small/22015205.jpg?version=55048' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>SOSA (UK)</div>
+                <div id='top10trackchart-title'><strong>Be Without You</strong></div>
+                <div id='top10trackchart-points'><strong>5289</strong> POINTS / <strong>83</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #ff9368;'>TECH HOUSE</span></div></div>
+                <a href='https://www.beatport.com/track/be-without-you/22015205' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='22015205' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/23648337'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>72<div id='top10artistchart-arrow'><img src='/_images/interface/uparrow_green.png' width='16' height='16' title='UP 1 in the last month'></div><div id='top10artistchart-arrowtext'>1</div></div><div id='top10artistchart-image'><img src='/images/track/small/23648337.jpg?version=35278' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>KASKADE, CID, ANABEL ENGLUND</div>
+                <div id='top10trackchart-title'><strong>Vision Blurred</strong></div>
+                <div id='top10trackchart-points'><strong>5181</strong> POINTS / <strong>69</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #ff9368;'>TECH HOUSE</span></div></div>
+                <a href='https://www.beatport.com/track/vision-blurred/23648337' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='23648337' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/20029418'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>73</div><div id='top10artistchart-image'><img src='/images/track/small/20029418.jpg?version=38471' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>QULIANO</div>
+                <div id='top10trackchart-title'><strong>NYC</strong></div>
+                <div id='top10trackchart-points'><strong>5149</strong> POINTS / <strong>88</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #ff9368;'>TECH HOUSE</span></div></div>
+                <a href='https://www.beatport.com/track/nyc/20029418' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='20029418' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/21893118'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>74</div><div id='top10artistchart-image'><img src='/images/track/small/21893118.jpg?version=52716' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>CHRIS LAKE, SKRILLEX, ANITA B QUEEN</div>
+                <div id='top10trackchart-title'><strong>LA NOCHE </strong></div>
+                <div id='top10trackchart-points'><strong>5116</strong> POINTS / <strong>86</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #ff768f;'>BASS HOUSE</span></div></div>
+                <a href='https://www.beatport.com/track/la-noche/21893118' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='21893118' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/20614372'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>75</div><div id='top10artistchart-image'><img src='/images/track/small/20614372.jpg?version=46034' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>SHIMZA, KASANGO, AR/CO</div>
+                <div id='top10trackchart-title'><strong>Fire Fire</strong></div>
+                <div id='top10trackchart-points'><strong>5103</strong> POINTS / <strong>115</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #ff5c68;'>AFRO HOUSE</span></div></div>
+                <a href='https://www.beatport.com/track/fire-fire/20614372' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='20614372' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/20630687'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>76</div><div id='top10artistchart-image'><img src='/images/track/small/20630687.jpg?version=51817' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>MAU P</div>
+                <div id='top10trackchart-title'><strong>TESLA</strong></div>
+                <div id='top10trackchart-points'><strong>5070</strong> POINTS / <strong>82</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #ff9368;'>TECH HOUSE</span></div></div>
+                <a href='https://www.beatport.com/track/tesla/20630687' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='20630687' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/20709709'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>77</div><div id='top10artistchart-image'><img src='/images/track/small/20709709.jpg?version=17699' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>JORDAN PEAK</div>
+                <div id='top10trackchart-title'><strong>Front 2 Back</strong></div>
+                <div id='top10trackchart-points'><strong>5069</strong> POINTS / <strong>76</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #8d4654;'>HOUSE</span></div></div>
+                <a href='https://www.beatport.com/track/front-2-back/20709709' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='20709709' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/20079434'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>78</div><div id='top10artistchart-image'><img src='/images/track/small/20079434.jpg?version=18728' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>MAX STYLER</div>
+                <div id='top10trackchart-title'><strong>I Know You Want To</strong></div>
+                <div id='top10trackchart-points'><strong>4993</strong> POINTS / <strong>99</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #ff9368;'>TECH HOUSE</span></div></div>
+                <a href='https://www.beatport.com/track/i-know-you-want-to/20079434' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='20079434' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/22910099'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>79<div id='top10artistchart-arrow'><img src='/_images/interface/uparrow_green.png' width='16' height='16' title='UP 1 in the last month'></div><div id='top10artistchart-arrowtext'>1</div></div><div id='top10artistchart-image'><img src='/images/track/small/22910099.jpg?version=64179' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>RIORDAN, A+</div>
+                <div id='top10trackchart-title'><strong>Party Out</strong></div>
+                <div id='top10trackchart-points'><strong>4875</strong> POINTS / <strong>61</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #ff9368;'>TECH HOUSE</span></div></div>
+                <a href='https://www.beatport.com/track/party-out/22910099' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='22910099' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/24441099'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>80<div id='top10artistchart-arrow'><img src='/_images/interface/uparrow_green.png' width='16' height='16' title='UP 98 in the last month'></div><div id='top10artistchart-arrowtext'>98</div></div><div id='top10artistchart-image'><img src='/images/track/small/24441099.jpg?version=63689' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>RIORDAN, SILVA BUMPA</div>
+                <div id='top10trackchart-title'><strong>Lifting</strong></div>
+                <div id='top10trackchart-points'><strong>4823</strong> POINTS / <strong>61</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #ff8e89;'>UK GARAGE / BASSLINE</span></div></div>
+                <a href='https://www.beatport.com/track/lifting/24441099' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='24441099' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/22015399'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>81<div id='top10artistchart-arrow'><img src='/_images/interface/uparrow_green.png' width='16' height='16' title='UP 1 in the last month'></div><div id='top10artistchart-arrowtext'>1</div></div><div id='top10artistchart-image'><img src='/images/track/small/22015399.jpg?version=17218' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>WESTEND, SIDEPIECE</div>
+                <div id='top10trackchart-title'><strong>Take Your Places</strong></div>
+                <div id='top10trackchart-points'><strong>4822</strong> POINTS / <strong>72</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #ff768f;'>BASS HOUSE</span></div></div>
+                <a href='https://www.beatport.com/track/take-your-places/22015399' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='22015399' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/23278801'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>82<div id='top10artistchart-arrow'><img src='/_images/interface/uparrow_green.png' width='16' height='16' title='UP 1 in the last month'></div><div id='top10artistchart-arrowtext'>1</div></div><div id='top10artistchart-image'><img src='/images/track/small/23278801.jpg?version=27632' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>JOSH BAKER, PAIGE CAVELL, SILVA BUMPA</div>
+                <div id='top10trackchart-title'><strong>Feel This Way</strong></div>
+                <div id='top10trackchart-points'><strong>4745</strong> POINTS / <strong>63</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #8d4654;'>HOUSE</span></div></div>
+                <a href='https://www.beatport.com/track/feel-this-way/23278801' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='23278801' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/22236530'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>83<div id='top10artistchart-arrow'><img src='/_images/interface/uparrow_green.png' width='16' height='16' title='UP 3 in the last month'></div><div id='top10artistchart-arrowtext'>3</div></div><div id='top10artistchart-image'><img src='/images/track/small/22236530.jpg?version=63587' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>BRITNEY SPEARS</div>
+                <div id='top10trackchart-title'><strong>I Wanna Go (John Summit Extended Remix)</strong></div>
+                <div id='top10trackchart-points'><strong>4656</strong> POINTS / <strong>83</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #ff7dbb;'>DANCE / POP</span></div></div>
+                <a href='https://www.beatport.com/track/i-wanna-go/22236530' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='22236530' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/19672880'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>84</div><div id='top10artistchart-image'><img src='/images/track/small/19672880.jpg?version=31882' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>PROSPA, RAHH</div>
+                <div id='top10trackchart-title'><strong>This Rhythm (feat. RAHH)</strong></div>
+                <div id='top10trackchart-points'><strong>4646</strong> POINTS / <strong>97</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #8d4654;'>HOUSE</span></div></div>
+                <a href='https://www.beatport.com/track/this-rhythm-feat-rahh/19672880' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='19672880' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/20488876'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>85<div id='top10artistchart-arrow'><img src='/_images/interface/uparrow_green.png' width='16' height='16' title='UP 2 in the last month'></div><div id='top10artistchart-arrowtext'>2</div></div><div id='top10artistchart-image'><img src='/images/track/small/20488876.jpg?version=23079' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>DELERIUM, SARAH MCLACHLAN, JOHN SUMMIT</div>
+                <div id='top10trackchart-title'><strong>Silence feat. Sarah McLachlan</strong></div>
+                <div id='top10trackchart-points'><strong>4646</strong> POINTS / <strong>79</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #ff7dbb;'>DANCE / POP</span></div></div>
+                <a href='https://www.beatport.com/track/silence-feat-sarah-mclachlan/20488876' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='20488876' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/21048828'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>86<div id='top10artistchart-arrow'><img src='/_images/interface/uparrow_green.png' width='16' height='16' title='UP 2 in the last month'></div><div id='top10artistchart-arrowtext'>2</div></div><div id='top10artistchart-image'><img src='/images/track/small/21048828.jpg?version=14825' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>CALVIN HARRIS</div>
+                <div id='top10trackchart-title'><strong>I'm Not Alone</strong></div>
+                <div id='top10trackchart-points'><strong>4634</strong> POINTS / <strong>94</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #ff8e89;'>UK GARAGE / BASSLINE</span></div></div>
+                <a href='https://www.beatport.com/track/im-not-alone/21048828' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='21048828' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/22385378'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>87<div id='top10artistchart-arrow'><img src='/_images/interface/uparrow_green.png' width='16' height='16' title='UP 2 in the last month'></div><div id='top10artistchart-arrowtext'>2</div></div><div id='top10artistchart-image'><img src='/images/track/small/22385378.jpg?version=65358' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>TIGA, MEDUZA</div>
+                <div id='top10trackchart-title'><strong>You Gonna Want Me (I Know)</strong></div>
+                <div id='top10trackchart-points'><strong>4594</strong> POINTS / <strong>81</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #a93d4c;'>MELODIC HOUSE & TECHNO</span></div></div>
+                <a href='https://www.beatport.com/track/you-gonna-want-me-i-know/22385378' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='22385378' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/20626343'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>88<div id='top10artistchart-arrow'><img src='/_images/interface/uparrow_green.png' width='16' height='16' title='UP 2 in the last month'></div><div id='top10artistchart-arrowtext'>2</div></div><div id='top10artistchart-image'><img src='/images/track/small/20626343.jpg?version=19178' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>HATIRAS</div>
+                <div id='top10trackchart-title'><strong>Hypnotized</strong></div>
+                <div id='top10trackchart-points'><strong>4571</strong> POINTS / <strong>88</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #ff9368;'>TECH HOUSE</span></div></div>
+                <a href='https://www.beatport.com/track/hypnotized/20626343' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='20626343' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/21302857'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>89<div id='top10artistchart-arrow'><img src='/_images/interface/uparrow_green.png' width='16' height='16' title='UP 2 in the last month'></div><div id='top10artistchart-arrowtext'>2</div></div><div id='top10artistchart-image'><img src='/images/track/small/21302857.jpg?version=48804' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>BRADEAZY</div>
+                <div id='top10trackchart-title'><strong>Up Down </strong></div>
+                <div id='top10trackchart-points'><strong>4538</strong> POINTS / <strong>112</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #ff768f;'>BASS HOUSE</span></div></div>
+                <a href='https://www.beatport.com/track/up-down/21302857' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='21302857' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/20778427'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>90<div id='top10artistchart-arrow'><img src='/_images/interface/uparrow_green.png' width='16' height='16' title='UP 3 in the last month'></div><div id='top10artistchart-arrowtext'>3</div></div><div id='top10artistchart-image'><img src='/images/track/small/20778427.jpg?version=55746' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>MELOKO, KONVEX (FR), GARLA</div>
+                <div id='top10trackchart-title'><strong>If U Ever</strong></div>
+                <div id='top10trackchart-points'><strong>4441</strong> POINTS / <strong>76</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #a93d4c;'>MELODIC HOUSE & TECHNO</span></div></div>
+                <a href='https://www.beatport.com/track/if-u-ever/20778427' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='20778427' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/22412782'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>91<div id='top10artistchart-arrow'><img src='/_images/interface/uparrow_green.png' width='16' height='16' title='UP 3 in the last month'></div><div id='top10artistchart-arrowtext'>3</div></div><div id='top10artistchart-image'><img src='/images/track/small/22412782.jpg?version=53240' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>LAYTON GIORDANI</div>
+                <div id='top10trackchart-title'><strong>Hold It Down (DARE)</strong></div>
+                <div id='top10trackchart-points'><strong>4437</strong> POINTS / <strong>63</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #ff9368;'>TECH HOUSE</span></div></div>
+                <a href='https://www.beatport.com/track/hold-it-down-dare/22412782' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='22412782' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/21630256'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>92<div id='top10artistchart-arrow'><img src='/_images/interface/uparrow_green.png' width='16' height='16' title='UP 5 in the last month'></div><div id='top10artistchart-arrowtext'>5</div></div><div id='top10artistchart-image'><img src='/images/track/small/21630256.jpg?version=12025' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>MAX DEAN, LUKE DEAN</div>
+                <div id='top10trackchart-title'><strong>Gets Like That</strong></div>
+                <div id='top10trackchart-points'><strong>4402</strong> POINTS / <strong>61</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #8d4654;'>HOUSE</span></div></div>
+                <a href='https://www.beatport.com/track/gets-like-that/21630256' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='21630256' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/20407046'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>93</div><div id='top10artistchart-image'><img src='/images/track/small/20407046.jpg?version=22656' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>JOHN SUMMIT, CLOVES</div>
+                <div id='top10trackchart-title'><strong>Focus feat. CLOVES (Alok Extended Remix)</strong></div>
+                <div id='top10trackchart-points'><strong>4384</strong> POINTS / <strong>66</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #a93d4c;'>MELODIC HOUSE & TECHNO</span></div></div>
+                <a href='https://www.beatport.com/track/focus-feat-cloves/20407046' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='20407046' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/19657454'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>94</div><div id='top10artistchart-image'><img src='/images/track/small/19657454.jpg?version=27990' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>&ME, RAMPA, ADAM PORT, KEINEMUSIK, CHUALA</div>
+                <div id='top10trackchart-title'><strong>Say What (feat. Chuala)</strong></div>
+                <div id='top10trackchart-points'><strong>4294</strong> POINTS / <strong>86</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #ff5c68;'>AFRO HOUSE</span></div></div>
+                <a href='https://www.beatport.com/track/say-what-feat-chuala/19657454' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='19657454' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/22457341'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>95<div id='top10artistchart-arrow'><img src='/_images/interface/uparrow_green.png' width='16' height='16' title='UP 5 in the last month'></div><div id='top10artistchart-arrowtext'>5</div></div><div id='top10artistchart-image'><img src='/images/track/small/22457341.jpg?version=56550' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>SMOKEY BUBBLIN' B, GUY BURNS, JAMES POOLE</div>
+                <div id='top10trackchart-title'><strong>Temptation</strong></div>
+                <div id='top10trackchart-points'><strong>4284</strong> POINTS / <strong>55</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #8d4654;'>HOUSE</span></div></div>
+                <a href='https://www.beatport.com/track/temptation/22457341' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='22457341' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/20284313'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>96</div><div id='top10artistchart-image'><img src='/images/track/small/20284313.jpg?version=6885' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>LOW STEPPA, CAPRI (UK)</div>
+                <div id='top10trackchart-title'><strong>Got The Funk</strong></div>
+                <div id='top10trackchart-points'><strong>4277</strong> POINTS / <strong>75</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #8d4654;'>HOUSE</span></div></div>
+                <a href='https://www.beatport.com/track/got-the-funk/20284313' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='20284313' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/21675756'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>97<div id='top10artistchart-arrow'><img src='/_images/interface/uparrow_green.png' width='16' height='16' title='UP 4 in the last month'></div><div id='top10artistchart-arrowtext'>4</div></div><div id='top10artistchart-image'><img src='/images/track/small/21675756.jpg?version=63494' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>KI/KI</div>
+                <div id='top10trackchart-title'><strong>What's a Girl to Do in '25 (Extended)</strong></div>
+                <div id='top10trackchart-points'><strong>4273</strong> POINTS / <strong>95</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #2b908f;'>TRANCE (MAIN FLOOR)</span></div></div>
+                <a href='https://www.beatport.com/track/whats-a-girl-to-do-in-25-extended/21675756' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='21675756' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/20848856'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>98<div id='top10artistchart-arrow'><img src='/_images/interface/uparrow_green.png' width='16' height='16' title='UP 4 in the last month'></div><div id='top10artistchart-arrowtext'>4</div></div><div id='top10artistchart-image'><img src='/images/track/small/20848856.jpg?version=12342' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>MC DT, SILVA BUMPA</div>
+                <div id='top10trackchart-title'><strong>Doin' It feat. MC DT</strong></div>
+                <div id='top10trackchart-points'><strong>4272</strong> POINTS / <strong>114</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #ff8e89;'>UK GARAGE / BASSLINE</span></div></div>
+                <a href='https://www.beatport.com/track/doin-it-feat-mc-dt/20848856' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='20848856' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/20529591'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>99<div id='top10artistchart-arrow'><img src='/_images/interface/uparrow_green.png' width='16' height='16' title='UP 4 in the last month'></div><div id='top10artistchart-arrowtext'>4</div></div><div id='top10artistchart-image'><img src='/images/track/small/20529591.jpg?version=56265' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>BOYS NOIZE, &ME, RAMPA, ADAM PORT, KEINEMUSIK, VINSON</div>
+                <div id='top10trackchart-title'><strong>Crazy For It (feat. Vinson)</strong></div>
+                <div id='top10trackchart-points'><strong>4236</strong> POINTS / <strong>68</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #a93d4c;'>MELODIC HOUSE & TECHNO</span></div></div>
+                <a href='https://www.beatport.com/track/crazy-for-it-feat-vinson/20529591' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='20529591' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/20789844'>
+        <div id='top10artistchart-full'><div id='top10artistchart-number'>100<div id='top10artistchart-arrow'><img src='/_images/interface/uparrow_green.png' width='16' height='16' title='UP 4 in the last month'></div><div id='top10artistchart-arrowtext'>4</div></div><div id='top10artistchart-image'><img src='/images/track/small/20789844.jpg?version=10774' height='50'></div>
+            <div id='top10trackchart-text-large'>
+                <div id='top10trackchart-artistname'>DUMITRESCU</div>
+                <div id='top10trackchart-title'><strong>Sitting In The Sun (Walking In The Rain)</strong></div>
+                <div id='top10trackchart-points'><strong>4234</strong> POINTS / <strong>59</strong> DAYS<div id='genreplacement'><span class='curved-box' style='background-color: #ff7dbb;'>DANCE / POP</span></div></div>
+                <a href='https://www.beatport.com/track/sitting-in-the-sun-walking-in-the-rain/20789844' target='_blank'><div id='shopping-icon-full'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='20789844' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon-full'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><div id='top10artistchart-footer'><span class='charttextname-c'> PAGE 1 of 16 <a href='/tracks/home/list?genre=0&period=2&page=2'> | NEXT PAGE</a></span> </div>            <br><br><br><br><br><br>
+            </div>
+    
+            <div id='content-column3'>
+             <div id="top10artistchart-header"><span class="charttextname-a">TRENDING <strong>TRACKS</strong></span></div><a href='/track/track/27913580'>
+        <div id='top10artistchart'><div id='top10artistchart-number'>3</div><div id='top10artistchart-image'><img src='/images/track/small/27913580.jpg?version=60922' height='50'></div>
+            <div id='top10trackchart-text'>
+                <div id='top10trackchart-artistname'>ALI LOVE, VINTAGE CULTURE, MAX...</div>
+                <div id='top10trackchart-title'><strong>Freaky 1</strong></div>
+                <div id='top10trackchart-points'><strong>1372</strong> POINTS / <strong>14</strong> DAYS</div>
+                <a href='https://www.beatport.com/track/freaky-1/27913580' target='_blank'><div id='shopping-icon'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='27913580' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/28418300'>
+        <div id='top10artistchart'><div id='top10artistchart-number'>11</div><div id='top10artistchart-image'><img src='/images/track/small/28418300.jpg?version=7932' height='50'></div>
+            <div id='top10trackchart-text'>
+                <div id='top10trackchart-artistname'>BRUNELLO, HILEL LEV</div>
+                <div id='top10trackchart-title'><strong>Apathy</strong></div>
+                <div id='top10trackchart-points'><strong>1236</strong> POINTS / <strong>14</strong> DAYS</div>
+                <a href='https://www.beatport.com/track/apathy/28418300' target='_blank'><div id='shopping-icon'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='28418300' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/28096073'>
+        <div id='top10artistchart'><div id='top10artistchart-number'>12</div><div id='top10artistchart-image'><img src='/images/track/small/28096073.jpg?version=31220' height='50'></div>
+            <div id='top10trackchart-text'>
+                <div id='top10trackchart-artistname'>KOLTER</div>
+                <div id='top10trackchart-title'><strong>Trapped</strong></div>
+                <div id='top10trackchart-points'><strong>1196</strong> POINTS / <strong>14</strong> DAYS</div>
+                <a href='https://www.beatport.com/track/trapped/28096073' target='_blank'><div id='shopping-icon'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='28096073' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/28354592'>
+        <div id='top10artistchart'><div id='top10artistchart-number'>19</div><div id='top10artistchart-image'><img src='/images/track/small/28354592.jpg?version=7512' height='50'></div>
+            <div id='top10trackchart-text'>
+                <div id='top10trackchart-artistname'>CAM STOCKMAN</div>
+                <div id='top10trackchart-title'><strong>Fascination </strong></div>
+                <div id='top10trackchart-points'><strong>1053</strong> POINTS / <strong>12</strong> DAYS</div>
+                <a href='https://www.beatport.com/track/fascination/28354592' target='_blank'><div id='shopping-icon'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='28354592' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/28413635'>
+        <div id='top10artistchart'><div id='top10artistchart-number'>21</div><div id='top10artistchart-image'><img src='/images/track/small/28413635.jpg?version=10133' height='50'></div>
+            <div id='top10trackchart-text'>
+                <div id='top10trackchart-artistname'>LAYTON GIORDANI, AR/CO</div>
+                <div id='top10trackchart-title'><strong>She's A Devil</strong></div>
+                <div id='top10trackchart-points'><strong>1004</strong> POINTS / <strong>14</strong> DAYS</div>
+                <a href='https://www.beatport.com/track/shes-a-devil/28413635' target='_blank'><div id='shopping-icon'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='28413635' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/28490889'>
+        <div id='top10artistchart'><div id='top10artistchart-number'>22</div><div id='top10artistchart-image'><img src='/images/track/small/28490889.jpg?version=55256' height='50'></div>
+            <div id='top10trackchart-text'>
+                <div id='top10trackchart-artistname'>LUKE DEAN, OMAR+</div>
+                <div id='top10trackchart-title'><strong>Back to the 305</strong></div>
+                <div id='top10trackchart-points'><strong>1004</strong> POINTS / <strong>12</strong> DAYS</div>
+                <a href='https://www.beatport.com/track/back-to-the-305/28490889' target='_blank'><div id='shopping-icon'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='28490889' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/26910403'>
+        <div id='top10artistchart'><div id='top10artistchart-number'>23</div><div id='top10artistchart-image'><img src='/images/track/small/26910403.jpg?version=13795' height='50'></div>
+            <div id='top10trackchart-text'>
+                <div id='top10trackchart-artistname'>SOUL MASS TRANSIT SYSTEM</div>
+                <div id='top10trackchart-title'><strong>Talking Nonsense</strong></div>
+                <div id='top10trackchart-points'><strong>997</strong> POINTS / <strong>14</strong> DAYS</div>
+                <a href='https://www.beatport.com/track/talking-nonsense/26910403' target='_blank'><div id='shopping-icon'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='26910403' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/28490854'>
+        <div id='top10artistchart'><div id='top10artistchart-number'>30</div><div id='top10artistchart-image'><img src='/images/track/small/28490854.jpg?version=14792' height='50'></div>
+            <div id='top10trackchart-text'>
+                <div id='top10trackchart-artistname'>ABSOLUTELY, JOHN SUMMIT</div>
+                <div id='top10trackchart-title'><strong>DON'T BELIEVE IT</strong></div>
+                <div id='top10trackchart-points'><strong>905</strong> POINTS / <strong>12</strong> DAYS</div>
+                <a href='https://www.beatport.com/track/dont-believe-it/28490854' target='_blank'><div id='shopping-icon'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='28490854' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/28354099'>
+        <div id='top10artistchart'><div id='top10artistchart-number'>32</div><div id='top10artistchart-image'><img src='/images/track/small/28354099.jpg?version=57099' height='50'></div>
+            <div id='top10trackchart-text'>
+                <div id='top10trackchart-artistname'>SPECIALIST MOSS, SILVA BUMPA</div>
+                <div id='top10trackchart-title'><strong>Hypa</strong></div>
+                <div id='top10trackchart-points'><strong>844</strong> POINTS / <strong>12</strong> DAYS</div>
+                <a href='https://www.beatport.com/track/hypa/28354099' target='_blank'><div id='shopping-icon'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='28354099' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><a href='/track/track/27808889'>
+        <div id='top10artistchart'><div id='top10artistchart-number'>33</div><div id='top10artistchart-image'><img src='/images/track/small/27808889.jpg?version=18110' height='50'></div>
+            <div id='top10trackchart-text'>
+                <div id='top10trackchart-artistname'>HOTLAP</div>
+                <div id='top10trackchart-title'><strong>Recall</strong></div>
+                <div id='top10trackchart-points'><strong>831</strong> POINTS / <strong>14</strong> DAYS</div>
+                <a href='https://www.beatport.com/track/recall/27808889' target='_blank'><div id='shopping-icon'><img src='/_images/interface/shopping_icon_alpha.png' width='20' height='20'></div></a>
+                <a href='#' onclick="if (!window.__cfRLUnblockHandlers) return false; audioplayerget(this.id);return false;" id='27808889' data-cf-modified-eabc8260c164f3f2546fd7d9-=""><div id='play-icon'><img src='/_images/interface/play_icon_alpha.png' width='22' height='22'></div></a>
+            </div>
+        </div></a><div id='top10artistchart-footer'><span class='charttextname-c'>TOP <strong>NEW</strong> TRACKS OVER LAST 14 DAYS</span> 
+    </div>            <br><br><br><br><br><br>
+            </div>
+    
+    
+                  <br><br><br><br>
+ 
+  </div><!-- #content -->
+  <br>		
+		
+		
+	</div><!-- #container -->
+    <div id="footer">
+		
+ 
+		
+		
+		
+        <div id='headercontainer'>
+			
+			<div id='footer-about'><a href='/about/home/list'><img src="/_images/interface/about.png" height="30" alt=""/> </a></div>
+			<div id='footer-faq'><a href='/faq/home/list'><img src="/_images/interface/faq.png" height="30" alt=""/> </a></div>
+			<div id='footer-contact'><a href='/contact/home/list'><img src="/_images/interface/contact.png" height="30" alt=""/> </a></div>
+			<div id='footer-features'><a href='/features/home/list'><img src="/_images/interface/features.png" height="30" alt=""/> </a></div>
+			
+			
+            <div id='BS-LOGO'><a href='/'><img src="/_images/interface/logo_bs.png" height="66" alt=""/> </a></div>
+					<div id="ko-fi">
+						
+												
+						
+
+
+
+
+<div id="targetElement"></div>
+						
+<a href='https://ko-fi.com/S6S8G2LBL' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi5.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+			
+			
+			</div>
+			
+			
+			
+			
+			<div id="songstats-footer">
+						
+					
+						
+						
+
+
+
+
+
+						
+<a href='https://songstats.com/app?ref=BEATSTATSB'><img height='36' style='border:0px;height:36px;' src='/_images/interface/songstats_2.png' border='0' alt='Check out SongStats' /></a></div>
+			
+			
+			
+        
+        <script type="eabc8260c164f3f2546fd7d9-text/javascript">
+$(document).ready(function() {
+    // Function to load the content
+    function loadContent() {
+        $.ajax({
+            url: "https://www.beatstats.com/_loader/loader.php",
+            type: "GET",
+            cache: false,
+            success: function(response) {
+                // Inject the fetched content into the target element
+                $('#targetElement').html(response);
+            },
+            error: function(xhr, status, error) {
+                // Do nothing on error
+            }
+        });
+    }
+
+    // Call the function to load content
+    loadContent();
+});
+</script>
+
+			
+        </div>
+		</div><!-- #footer -->
+
+
+    
+   
+   
+<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="eabc8260c164f3f2546fd7d9-|49" defer></script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516" integrity="sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==" data-cf-beacon='{"version":"2024.11.0","token":"6d4a97d7cb67428d9ba41da645b1f6a9","server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9f443b88181af037',t:'MTc3NzUyNzg0NQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
+

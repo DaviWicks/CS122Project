@@ -1,0 +1,101 @@
+rank,rise_amount,is_rising,artist_raw,artists,num_artists,title,genre,points,days,beatport_link
+1,0,False,"JONAS BLUE, MALIVE",JONAS BLUE | MALIVE,2,Edge of Desire,HOUSE,21094,285,https://www.beatport.com/track/edge-of-desire/20625808
+2,0,False,"TINASHE, DISCO LINES",TINASHE | DISCO LINES,2,No Broke Boys,DANCE / POP,17922,258,https://www.beatport.com/track/no-broke-boys/20601832
+3,0,False,MAU P,MAU P,1,Like I Like It,TECH HOUSE,16951,251,https://www.beatport.com/track/like-i-like-it/20505201
+4,0,False,"HUGEL, SOLTO (FR)",HUGEL | SOLTO (FR),2,Jamaican (Bam Bam),AFRO HOUSE,16248,173,https://www.beatport.com/track/jamaican-bam-bam/22357262
+5,3,True,JAMBACK,JAMBACK,1,Positive,MINIMAL / DEEP TECH,15176,173,https://www.beatport.com/track/positive/22236272
+6,0,False,TOMAN,TOMAN,1,Verano En NY,TECH HOUSE,13549,228,https://www.beatport.com/track/verano-en-ny/20564331
+7,0,False,"CID, TAYLR RENEE",CID | TAYLR RENEE,2,Fancy $hit,TECH HOUSE,13304,170,https://www.beatport.com/track/fancy-hit/21309496
+8,0,False,PROSPA,PROSPA,1,Don't Stop,TECH HOUSE,12579,237,https://www.beatport.com/track/dont-stop/20311844
+9,0,False,"PROSPA, KOSMO KINT",PROSPA | KOSMO KINT,2,Love Songs (feat. Kosmo Kint),HOUSE,12178,174,https://www.beatport.com/track/love-songs-feat-kosmo-kint/21977538
+10,1,True,"DA HOOL, CASSIAN, YOTTO",DA HOOL | CASSIAN | YOTTO,3,Love Parade,MELODIC HOUSE & TECHNO,11337,154,https://www.beatport.com/track/love-parade/21774346
+11,1,True,SIDEPIECE,SIDEPIECE,1,Cry For You,DANCE / POP,11170,156,https://www.beatport.com/track/cry-for-you/21531599
+12,9,True,"ULTRA NATE, HUGEL",ULTRA NATE | HUGEL,2,Free (You Got To Live),AFRO HOUSE,10713,151,https://www.beatport.com/track/free-you-got-to-live/22366666
+13,1,True,BABES ON THE RUN,BABES ON THE RUN,1,Power,FUNKY HOUSE,10626,224,https://www.beatport.com/track/power/20692753
+14,1,True,"CHRIS LAKE, THE CHEMICAL BROTHERS",CHRIS LAKE | THE CHEMICAL BROTHERS,2,Galvanize,DANCE / POP,10594,146,https://www.beatport.com/track/galvanize/21200241
+15,1,True,CHRIS LORENZO,CHRIS LORENZO,1,Appetite,TECH HOUSE,10406,162,https://www.beatport.com/track/appetite/20450483
+16,2,True,"MAX DEAN, LUKE DEAN, LOCKY (UK)",MAX DEAN | LUKE DEAN | LOCKY (UK),3,Can't Decide,DEEP HOUSE,9683,189,https://www.beatport.com/track/cant-decide/20515390
+17,3,True,"CALVIN HARRIS, CLEMENTINE DOUGLAS",CALVIN HARRIS | CLEMENTINE DOUGLAS,2,Blessings,DANCE / POP,9601,132,https://www.beatport.com/track/blessings/20462394
+18,4,True,"AUDIO BULLYS, CHRIS LORENZO, MAX STYLER",AUDIO BULLYS | CHRIS LORENZO | MAX STYLER,3,London's On Fire,TECH HOUSE,9283,154,https://www.beatport.com/track/londons-on-fire/20601589
+19,5,True,"KATE LINN, PROVI, FANTOMEL",KATE LINN | PROVI | FANTOMEL,3,Dame Un Grrr (Provi Remix),AFRO HOUSE,9148,146,https://www.beatport.com/track/dame-un-grrr-provi-remix/21250305
+20,5,True,FALLON (IE),FALLON (IE),1,Diet Coke,TECH HOUSE,8996,117,https://www.beatport.com/track/diet-coke/22095452
+21,22,True,BRUNELLO,BRUNELLO,1,Ghost Dance,INDIE DANCE,8836,121,https://www.beatport.com/track/ghost-dance/23140771
+22,5,True,"VANCO, AYA.SYSTEM",VANCO | AYA.SYSTEM,2,Ma Tnsani (Yalla Habibi) (feat. AYA.SYSTEM),AFRO HOUSE,8792,149,https://www.beatport.com/track/ma-tnsani-yalla-habibi-feat-ayasystem/20088037
+23,0,False,"CHRIS LAKE, RAGIE BAN",CHRIS LAKE | RAGIE BAN,2,Toxic,TECH HOUSE,8520,138,https://www.beatport.com/track/toxic/20291674
+24,8,True,SUPERNOVA,SUPERNOVA,1,Velvet Avenue,HOUSE,8452,134,https://www.beatport.com/track/velvet-avenue/22735704
+25,3,True,VINTER (BR),VINTER (BR),1,Space Pump,HOUSE,8297,124,https://www.beatport.com/track/space-pump/21026596
+26,3,True,"EMPIRE OF THE SUN, BLOND:ISH",EMPIRE OF THE SUN | BLOND:ISH,2,Walking On A Dream,DANCE / POP,8211,133,https://www.beatport.com/track/walking-on-a-dream/20832384
+27,0,False,"JOCELYN BROWN, LUKE ALESSI, CHLOé CAILLET",JOCELYN BROWN | LUKE ALESSI | CHLOé CAILLET,3,The One,HOUSE,8097,125,https://www.beatport.com/track/the-one/20307568
+28,0,False,MAU P,MAU P,1,The Less I Know The Better,TECH HOUSE,7838,139,https://www.beatport.com/track/the-less-i-know-the-better/20085129
+29,2,True,FEZZO,FEZZO,1,Kids,DANCE / POP,7786,84,https://www.beatport.com/track/kids/22448219
+30,3,True,"KURD MAVERICK, HUGEL",KURD MAVERICK | HUGEL,2,PYHU (Put Your Hands Up),AFRO HOUSE,7590,119,https://www.beatport.com/track/pyhu-put-your-hands-up/20969830
+31,3,True,"SHAKEDOWN, LAYTON GIORDANI, ANYMA (OFC)",SHAKEDOWN | LAYTON GIORDANI | ANYMA (OFC),3,At Night (Anyma x Layton Giordani Extended Remix),MELODIC HOUSE & TECHNO,7542,123,https://www.beatport.com/track/at-night/20661162
+32,3,True,JULIAN FIJMA,JULIAN FIJMA,1,Get Stupid,MINIMAL / DEEP TECH,7539,124,https://www.beatport.com/track/get-stupid/20889654
+33,3,True,"BOBBY SHMURDA, SIDEPIECE",BOBBY SHMURDA | SIDEPIECE,2,Cash Out,TECH HOUSE,7506,134,https://www.beatport.com/track/cash-out/20566956
+34,0,False,RÜFÜS DU SOL,RÜFÜS DU SOL,1,In the Moment (Adriatique Extended Remix),MELODIC HOUSE & TECHNO,7498,155,https://www.beatport.com/track/in-the-moment/20327131
+35,2,True,"MODJO, SPARROW & BARBOSSA, KOSHI, DAYMAAN, SPARROW (CH)",MODJO | SPARROW & BARBOSSA | KOSHI | DAYMAAN | SPARROW (CH),5,Lady (Hear Me Tonight) - Remix,AFRO HOUSE,7469,120,https://www.beatport.com/track/lady-hear-me-tonight-remix/21628116
+36,42,True,MAU P,MAU P,1,neck,TECH HOUSE,7340,82,https://www.beatport.com/track/neck/23308330
+37,48,True,TRACE (UZ),TRACE (UZ),1,Good Time,HOUSE,7337,81,https://www.beatport.com/track/good-time/23443670
+38,0,False,BISCITS,BISCITS,1,Crush,TECH HOUSE,7210,107,https://www.beatport.com/track/crush/20362602
+39,0,False,"NATE DOGG, KOLTER",NATE DOGG | KOLTER,2,Liquor Store,HOUSE,6986,92,https://www.beatport.com/track/liquor-store/20895024
+40,0,False,"CAMELPHAT, ELDERBROOK, ARTBAT",CAMELPHAT | ELDERBROOK | ARTBAT,3,Cola,TECH HOUSE,6957,98,https://www.beatport.com/track/cola/20790162
+41,0,False,BONAFIQUE,BONAFIQUE,1,Monologue,INDIE DANCE,6953,154,https://www.beatport.com/track/monologue/20962298
+42,6,True,"NICK CURLY, JOëLLA JACKSON",NICK CURLY | JOëLLA JACKSON,2,Attention,DEEP HOUSE,6937,138,https://www.beatport.com/track/attention/22480525
+43,36,True,ESSE (US),ESSE (US),1,Make My Day,TECH HOUSE,6857,84,https://www.beatport.com/track/make-my-day/23451068
+44,0,False,"VINTAGE CULTURE, GABSS",VINTAGE CULTURE | GABSS,2,Lost,MELODIC HOUSE & TECHNO,6804,76,https://www.beatport.com/track/lost/22738898
+45,0,False,"EMANUELE ESPOSITO, GIANNI ROMANO, HELEN TESFAZGHI, &FRIENDS",EMANUELE ESPOSITO | GIANNI ROMANO | HELEN TESFAZGHI | &FRIENDS,4,It's Not Right,AFRO HOUSE,6753,126,https://www.beatport.com/track/its-not-right/20156008
+46,0,False,SAMM (BE),SAMM (BE),1,Body Language,HOUSE,6636,90,https://www.beatport.com/track/body-language/20633751
+47,34,True,JOSHWA,JOSHWA,1,Out of My Mind,TECH HOUSE,6466,82,https://www.beatport.com/track/out-of-my-mind/23451235
+48,51,True,"REINIER ZONNEVELD, GORDO",REINIER ZONNEVELD | GORDO,2,Loco Loco,DANCE / POP,6448,75,https://www.beatport.com/track/loco-loco/23904036
+49,0,False,"ADAM PORT, STRYV, MALACHIII",ADAM PORT | STRYV | MALACHIII,3,Positions,AFRO HOUSE,6424,91,https://www.beatport.com/track/positions/20674436
+50,0,False,SCRIPT,SCRIPT,1,WTF,TECH HOUSE,6324,106,https://www.beatport.com/track/wtf/20796447
+51,0,False,"MK, CHRYSTAL",MK | CHRYSTAL,2,Dior,HOUSE,6297,95,https://www.beatport.com/track/dior/20528357
+52,0,False,MESTO,MESTO,1,Caramelle,MAINSTAGE,6272,85,https://www.beatport.com/track/caramelle/22741059
+53,0,False,"MARSHALL JEFFERSON, MAESIC, SALOMé DAS",MARSHALL JEFFERSON | MAESIC | SALOMé DAS,3,Life Is Simple (Move Your Body),AFRO HOUSE,6219,100,https://www.beatport.com/track/life-is-simple-move-your-body/20128472
+54,0,False,"MR. BELT & WEZOL, RUZE",MR. BELT & WEZOL | RUZE,2,Ain't Nobody,HOUSE,6183,92,https://www.beatport.com/track/aint-nobody/21357834
+55,0,False,DISCIP,DISCIP,1,Pull Up,TECH HOUSE,6110,80,https://www.beatport.com/track/pull-up/22866908
+56,0,False,L.P. RHYTHM,L.P. RHYTHM,1,Versatile,HOUSE,6022,89,https://www.beatport.com/track/versatile/20719741
+57,0,False,"TIESTO, ODD MOB, GOODBOYS",TIESTO | ODD MOB | GOODBOYS,3,Won't Be Possible,DANCE / POP,5971,91,https://www.beatport.com/track/wont-be-possible/20470408
+58,0,False,"THREE DRIVES, THREE DRIVES ON A VINYL, MAX STYLER",THREE DRIVES | THREE DRIVES ON A VINYL | MAX STYLER,3,Greece 2000,TRANCE (MAIN FLOOR),5772,80,https://www.beatport.com/track/greece-2000/23011269
+59,1,True,ALAIA & GALLO,ALAIA & GALLO,1,Lipstick,TECH HOUSE,5696,114,https://www.beatport.com/track/lipstick/20572171
+60,1,True,"ODD MOB, OMNOM, HYPERBEAM",ODD MOB | OMNOM | HYPERBEAM,3,Coming Up (It's Dare),DANCE / POP,5682,84,https://www.beatport.com/track/coming-up-its-dare/22424419
+61,1,True,MPH,MPH,1,Raw,UK GARAGE / BASSLINE,5645,130,https://www.beatport.com/track/raw/20533994
+62,1,True,"CALVIN HARRIS, D.O.D",CALVIN HARRIS | D.O.D,2,Sweet Nothing,DANCE / POP,5635,86,https://www.beatport.com/track/sweet-nothing/21111811
+63,1,True,"HECTOR COUTO, ALEJANDRO PAZ",HECTOR COUTO | ALEJANDRO PAZ,2,El House,HOUSE,5486,89,https://www.beatport.com/track/el-house/20431852
+64,1,True,EMANUEL SATIE,EMANUEL SATIE,1,Give It All,HOUSE,5473,85,https://www.beatport.com/track/give-it-all/22384690
+65,2,True,"ODD MOB, OMNOM, HYPERBEAM",ODD MOB | OMNOM | HYPERBEAM,3,System,TECH HOUSE,5387,78,https://www.beatport.com/track/system/21251156
+66,2,True,"MOBY, BLOND:ISH, KIKO FRANCO",MOBY | BLOND:ISH | KIKO FRANCO,3,Natural Blues,HOUSE,5359,73,https://www.beatport.com/track/natural-blues/20488794
+67,155,True,"ANOTR, 54 ULTRA",ANOTR | 54 ULTRA,2,Talk To You,HOUSE,5345,54,https://www.beatport.com/track/talk-to-you/24508685
+68,1,True,"SONNY FODERA, D.O.D, POPPY BASKCOMB",SONNY FODERA | D.O.D | POPPY BASKCOMB,3,Think About Us,DANCE / POP,5322,119,https://www.beatport.com/track/think-about-us/22203336
+69,1,True,TINI GESSLER,TINI GESSLER,1,For The Soul,TECH HOUSE,5305,92,https://www.beatport.com/track/for-the-soul/22354597
+70,26,True,"MILKY, MALL GRAB",MILKY | MALL GRAB,2,Just The Way You Are,HOUSE,5302,82,https://www.beatport.com/track/just-the-way-you-are/23900747
+71,0,False,SOSA (UK),SOSA (UK),1,Be Without You,TECH HOUSE,5289,83,https://www.beatport.com/track/be-without-you/22015205
+72,1,True,"KASKADE, CID, ANABEL ENGLUND",KASKADE | CID | ANABEL ENGLUND,3,Vision Blurred,TECH HOUSE,5181,69,https://www.beatport.com/track/vision-blurred/23648337
+73,0,False,QULIANO,QULIANO,1,NYC,TECH HOUSE,5149,88,https://www.beatport.com/track/nyc/20029418
+74,0,False,"CHRIS LAKE, SKRILLEX, ANITA B QUEEN",CHRIS LAKE | SKRILLEX | ANITA B QUEEN,3,LA NOCHE,BASS HOUSE,5116,86,https://www.beatport.com/track/la-noche/21893118
+75,0,False,"SHIMZA, KASANGO, AR/CO",SHIMZA | KASANGO | AR/CO,3,Fire Fire,AFRO HOUSE,5103,115,https://www.beatport.com/track/fire-fire/20614372
+76,0,False,MAU P,MAU P,1,TESLA,TECH HOUSE,5070,82,https://www.beatport.com/track/tesla/20630687
+77,0,False,JORDAN PEAK,JORDAN PEAK,1,Front 2 Back,HOUSE,5069,76,https://www.beatport.com/track/front-2-back/20709709
+78,0,False,MAX STYLER,MAX STYLER,1,I Know You Want To,TECH HOUSE,4993,99,https://www.beatport.com/track/i-know-you-want-to/20079434
+79,1,True,"RIORDAN, A+",RIORDAN | A+,2,Party Out,TECH HOUSE,4875,61,https://www.beatport.com/track/party-out/22910099
+80,98,True,"RIORDAN, SILVA BUMPA",RIORDAN | SILVA BUMPA,2,Lifting,UK GARAGE / BASSLINE,4823,61,https://www.beatport.com/track/lifting/24441099
+81,1,True,"WESTEND, SIDEPIECE",WESTEND | SIDEPIECE,2,Take Your Places,BASS HOUSE,4822,72,https://www.beatport.com/track/take-your-places/22015399
+82,1,True,"JOSH BAKER, PAIGE CAVELL, SILVA BUMPA",JOSH BAKER | PAIGE CAVELL | SILVA BUMPA,3,Feel This Way,HOUSE,4745,63,https://www.beatport.com/track/feel-this-way/23278801
+83,3,True,BRITNEY SPEARS,BRITNEY SPEARS,1,I Wanna Go (John Summit Extended Remix),DANCE / POP,4656,83,https://www.beatport.com/track/i-wanna-go/22236530
+84,0,False,"PROSPA, RAHH",PROSPA | RAHH,2,This Rhythm (feat. RAHH),HOUSE,4646,97,https://www.beatport.com/track/this-rhythm-feat-rahh/19672880
+85,2,True,"DELERIUM, SARAH MCLACHLAN, JOHN SUMMIT",DELERIUM | SARAH MCLACHLAN | JOHN SUMMIT,3,Silence feat. Sarah McLachlan,DANCE / POP,4646,79,https://www.beatport.com/track/silence-feat-sarah-mclachlan/20488876
+86,2,True,CALVIN HARRIS,CALVIN HARRIS,1,I'm Not Alone,UK GARAGE / BASSLINE,4634,94,https://www.beatport.com/track/im-not-alone/21048828
+87,2,True,"TIGA, MEDUZA",TIGA | MEDUZA,2,You Gonna Want Me (I Know),MELODIC HOUSE & TECHNO,4594,81,https://www.beatport.com/track/you-gonna-want-me-i-know/22385378
+88,2,True,HATIRAS,HATIRAS,1,Hypnotized,TECH HOUSE,4571,88,https://www.beatport.com/track/hypnotized/20626343
+89,2,True,BRADEAZY,BRADEAZY,1,Up Down,BASS HOUSE,4538,112,https://www.beatport.com/track/up-down/21302857
+90,3,True,"MELOKO, KONVEX (FR), GARLA",MELOKO | KONVEX (FR) | GARLA,3,If U Ever,MELODIC HOUSE & TECHNO,4441,76,https://www.beatport.com/track/if-u-ever/20778427
+91,3,True,LAYTON GIORDANI,LAYTON GIORDANI,1,Hold It Down (DARE),TECH HOUSE,4437,63,https://www.beatport.com/track/hold-it-down-dare/22412782
+92,5,True,"MAX DEAN, LUKE DEAN",MAX DEAN | LUKE DEAN,2,Gets Like That,HOUSE,4402,61,https://www.beatport.com/track/gets-like-that/21630256
+93,0,False,"JOHN SUMMIT, CLOVES",JOHN SUMMIT | CLOVES,2,Focus feat. CLOVES (Alok Extended Remix),MELODIC HOUSE & TECHNO,4384,66,https://www.beatport.com/track/focus-feat-cloves/20407046
+94,0,False,"&ME, RAMPA, ADAM PORT, KEINEMUSIK, CHUALA",&ME | RAMPA | ADAM PORT | KEINEMUSIK | CHUALA,5,Say What (feat. Chuala),AFRO HOUSE,4294,86,https://www.beatport.com/track/say-what-feat-chuala/19657454
+95,5,True,"SMOKEY BUBBLIN' B, GUY BURNS, JAMES POOLE",SMOKEY BUBBLIN' B | GUY BURNS | JAMES POOLE,3,Temptation,HOUSE,4284,55,https://www.beatport.com/track/temptation/22457341
+96,0,False,"LOW STEPPA, CAPRI (UK)",LOW STEPPA | CAPRI (UK),2,Got The Funk,HOUSE,4277,75,https://www.beatport.com/track/got-the-funk/20284313
+97,4,True,KI/KI,KI/KI,1,What's a Girl to Do in '25 (Extended),TRANCE (MAIN FLOOR),4273,95,https://www.beatport.com/track/whats-a-girl-to-do-in-25-extended/21675756
+98,4,True,"MC DT, SILVA BUMPA",MC DT | SILVA BUMPA,2,Doin' It feat. MC DT,UK GARAGE / BASSLINE,4272,114,https://www.beatport.com/track/doin-it-feat-mc-dt/20848856
+99,4,True,"BOYS NOIZE, &ME, RAMPA, ADAM PORT, KEINEMUSIK, VINSON",BOYS NOIZE | &ME | RAMPA | ADAM PORT | KEINEMUSIK | VINSON,6,Crazy For It (feat. Vinson),MELODIC HOUSE & TECHNO,4236,68,https://www.beatport.com/track/crazy-for-it-feat-vinson/20529591
+100,4,True,DUMITRESCU,DUMITRESCU,1,Sitting In The Sun (Walking In The Rain),DANCE / POP,4234,59,https://www.beatport.com/track/sitting-in-the-sun-walking-in-the-rain/20789844
