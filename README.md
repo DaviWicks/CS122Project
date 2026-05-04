@@ -72,6 +72,20 @@ Visualizations include:
 * Scatter plots (rank vs days)
 * Trend analysis of rising tracks
 
+### Implemented Features
+
+The application includes interactive analysis tools:
+
+- Top 10 genres displayed as a bar chart
+- Top 10 artists displayed as a bar chart
+- Scatter plot of points vs days on chart
+- Scatter plot of rank vs points
+- Average points by genre visualization
+- Identification of top rising tracks (popup display)
+- Ability to open the most popular song in a web browser (YouTube)
+
+These features allow users to explore music trends and identify popular and emerging tracks.
+
 ---
 
 ## Interface (Tkinter)
@@ -165,11 +179,14 @@ To address this, the program parses saved HTML source from publicly accessible c
 
 ## Future Improvements
 
-* Expand analysis across multiple time periods
-* Add support for additional genres
 * Improve visualization integration directly in the GUI
 * Automate periodic data updates
 * Incorporate additional metadata sources if available
+* Integrate real-time data instead of static HTML files
+* Embed music playback directly in the application
+* Add filtering by genre or artist
+* Improve UI design with more advanced layouts
+* Expand analysis to include historical trends
 
 ---
 
