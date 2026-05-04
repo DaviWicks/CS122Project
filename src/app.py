@@ -5,6 +5,9 @@ from tkinter import ttk, messagebox
 
 import pandas as pd
 from bs4 import BeautifulSoup
+import matplotlib.pyplot as plt
+import webbrowser
+import urllib.parse
 
 
 RAW_HTML_PATH = "data/raw/all_genres_chart_source.html"
@@ -277,35 +280,155 @@ class HomePage(tk.Frame):
         self.refresh_table()
 
 
+
+
 class AnalysisPage(tk.Frame):
     def __init__(self, parent, controller):
         super().__init__(parent)
         self.controller = controller
 
-        title = tk.Label(self, text="Analysis & Visualization Page", font=("Arial", 20, "bold"))
-        title.pack(pady=20)
+        title = tk.Label(self, text="Analysis & Visualization Page", font=("Arial", 18, "bold"))
+        title.pack(pady=15)
 
-        info = tk.Label(
-            self,
-            text=(
-                "This page is for Partner 2.\n\n"
-                "Suggested analyses with all-genres data:\n"
-                "- Top genres by chart appearances\n"
-                "- Top artists by chart appearances\n"
-                "- Average points by genre\n"
-                "- Average days on chart by genre\n"
-                "- Rising tracks using rise_amount\n"
-                "- Songs with the most collaborating artists\n"
-            ),
-            justify="left",
-            font=("Arial", 12)
-        )
-        info.pack(pady=20)
+        tk.Label(self, text="Partner 2: Data Analysis and Visualization").pack(pady=5)
 
-        back_button = tk.Button(
+        tk.Button(self, text="1. Top 10 Genres", command=self.plot_genres, width=35).pack(pady=5)
+        tk.Button(self, text="2. Top 10 Artists", command=self.plot_artists, width=35).pack(pady=5)
+        tk.Button(self, text="3. Points vs Days", command=self.plot_points_vs_days, width=35).pack(pady=5)
+        tk.Button(self, text="4. Average Points by Genre", command=self.plot_avg_points_by_genre, width=35).pack(pady=5)
+        tk.Button(self, text="5. Rank vs Points", command=self.plot_rank_vs_points, width=35).pack(pady=5)
+        tk.Button(self, text="6. Top Rising Tracks", command=self.show_rising_tracks, width=35).pack(pady=5)
+        tk.Button(self, text="7. Play Most Popular Song", command=self.play_top_song, width=35).pack(pady=5)
+
+        tk.Button(
             self,
             text="Back to Data Page",
             command=lambda: controller.show_frame(HomePage),
-            width=18
+            width=35
+        ).pack(pady=15)
+
+    def get_df(self):
+        df = self.controller.df
+        if df.empty:
+            messagebox.showwarning("No Data", "Please load the data on the Home page first.")
+            return None
+        return df
+
+    def plot_genres(self):
+        df = self.get_df()
+        if df is None:
+            return
+
+        genre_counts = df["genre"].value_counts().head(10)
+
+        plt.figure(figsize=(10, 6))
+        genre_counts.plot(kind="bar", color="mediumorchid", edgecolor="black")
+        plt.title("Top 10 Genres", fontsize=16, fontweight="bold")
+        plt.xlabel("Genre")
+        plt.ylabel("Count")
+        plt.xticks(rotation=45, ha="right")
+        plt.grid(axis="y", alpha=0.3)
+        plt.tight_layout()
+        plt.show()
+
+    def plot_artists(self):
+        df = self.get_df()
+        if df is None:
+            return
+
+        artist_counts = df["artist_raw"].value_counts().head(10)
+
+        plt.figure(figsize=(10, 6))
+        artist_counts.plot(kind="bar", color="coral", edgecolor="black")
+        plt.title("Top 10 Artists", fontsize=16, fontweight="bold")
+        plt.xlabel("Artist")
+        plt.ylabel("Count")
+        plt.xticks(rotation=45, ha="right")
+        plt.grid(axis="y", alpha=0.3)
+        plt.tight_layout()
+        plt.show()
+
+    def plot_points_vs_days(self):
+        df = self.get_df()
+        if df is None:
+            return
+
+        plt.figure(figsize=(10, 6))
+        plt.scatter(df["days"], df["points"], color="teal", alpha=0.7)
+        plt.title("Points vs Days", fontsize=16, fontweight="bold")
+        plt.xlabel("Days")
+        plt.ylabel("Points")
+        plt.grid(alpha=0.3)
+        plt.tight_layout()
+        plt.show()
+
+    def plot_avg_points_by_genre(self):
+        df = self.get_df()
+        if df is None:
+            return
+
+        avg_points = df.groupby("genre")["points"].mean().sort_values(ascending=False).head(10)
+
+        plt.figure(figsize=(10, 6))
+        avg_points.plot(kind="bar", color="seagreen", edgecolor="black")
+        plt.title("Average Points by Genre", fontsize=16, fontweight="bold")
+        plt.xlabel("Genre")
+        plt.ylabel("Average Points")
+        plt.xticks(rotation=45, ha="right")
+        plt.grid(axis="y", alpha=0.3)
+        plt.tight_layout()
+        plt.show()
+
+    def plot_rank_vs_points(self):
+        df = self.get_df()
+        if df is None:
+            return
+
+        plt.figure(figsize=(10, 6))
+        plt.scatter(df["rank"], df["points"], color="darkorange", alpha=0.7)
+        plt.title("Rank vs Points", fontsize=16, fontweight="bold")
+        plt.xlabel("Rank")
+        plt.ylabel("Points")
+        plt.grid(alpha=0.3)
+        plt.tight_layout()
+        plt.show()
+
+    def show_rising_tracks(self):
+        df = self.get_df()
+        if df is None:
+            return
+
+        rising = df[df["rise_amount"] > 0].sort_values(by="rise_amount", ascending=False).head(10)
+
+        if rising.empty:
+            messagebox.showinfo("Top Rising Tracks", "No rising tracks found.")
+            return
+
+        lines = []
+        for i, row in enumerate(rising.itertuples(), start=1):
+            lines.append(
+                f"{i}. {row.title}\n"
+                f"   Artist: {row.artist_raw}\n"
+                f"   Rose by: {row.rise_amount} spots\n"
+            )
+
+        messagebox.showinfo("Top Rising Tracks", "\n".join(lines))
+
+    def play_top_song(self):
+        df = self.get_df()
+        if df is None:
+            return
+
+        top_song = df.sort_values(by="points", ascending=False).iloc[0]
+        title = top_song["title"]
+        artist = top_song["artist_raw"]
+
+        query = urllib.parse.quote_plus(f"{title} {artist} official music video")
+        url = f"https://www.youtube.com/results?search_query={query}"
+
+        messagebox.showinfo(
+            "Most Popular Song",
+            f"{title}\nby {artist}\n\nOpening on YouTube..."
         )
-        back_button.pack(pady=10)
+
+        webbrowser.open(url)
