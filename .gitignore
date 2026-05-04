@@ -30,4 +30,4 @@ eclipse-workspace/
 .ipynb_checkpoints/
 
 # Environment variables
-.env
+.envuser_data/
