@@ -5,6 +5,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import pandas as pd
 import time
 import random
+import os
 
 def scrape_beatstats_full_100():
     print("Launching stealth browser...")
@@ -101,12 +102,19 @@ def scrape_beatstats_full_100():
                 pd.DataFrame(final_results).to_csv("beatstats_partial.csv", index=False)
 
         # Final Save
+
+        output_dir = os.path.join("data", "processed")
+
+        os.makedirs(output_dir, exist_ok=True)
+
+        file_path = os.path.join(output_dir, "beatstats_100_report.csv")
+
         df = pd.DataFrame(final_results)
         cols = ['rank', 'momentum', 'artist', 'title', 'genre', 'points', 'days', 'label', 'released', 'bpm', 'key', 'length']
         for c in cols:
             if c not in df.columns: df[c] = "N/A"
         
-        df[cols].to_csv("beatstats_100_report.csv", index=False)
+        df[cols].to_csv(file_path, index=False)
         print(f"\nDONE! Full 100 tracks saved to 'beatstats_100_report.csv'")
         
     finally:

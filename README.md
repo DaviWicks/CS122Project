@@ -2,111 +2,89 @@
 
 ## Authors
 
-* Davis Nguyen (Data Collection & Organization)
-* Gloria B Castro (Analysis & Visualization)
+* **Davis Nguyen** (Data Collection & Organization)
+* **Gloria B Castro** (Analysis & Visualization)
 
 ---
 
 ## Project Description
 
-This project analyzes electronic music trends using publicly available chart data from BeatStats, which aggregates Beatport Top 100 rankings.
+This project analyzes electronic music trends using real-time and historical chart data from **BeatStats**, which aggregates Beatport Top 100 rankings. 
 
-The program extracts chart data such as:
+The application provides a professional-grade workflow to extract, process, and visualize the sonic characteristics and market performance of trending tracks. By automating the data collection process, the program allows users to identify patterns in track rankings, artists (including collaborations), genres, and musical metadata like BPM and Key.
 
-* track rankings
-* artists (including multiple artists per track)
-* genres
-* chart movement (rising tracks)
-* popularity (points)
-* chart longevity (days)
-
-The data is structured into CSV files and used to analyze trends across genres, artists, and chart performance.
+The data is structured into local CSV files and used to analyze trends across genres, artists, record labels, and chart performance longevity.
 
 ---
 
 ## Key Features
 
-* Multi-artist parsing and collaboration analysis
-* Genre-based trend analysis across all Top 100 tracks
-* Chart movement tracking (rising tracks)
-* Track popularity and longevity analysis
-* Interactive Tkinter GUI for loading and viewing data
-* Sortable data table for user interaction
+* **Automated Selenium Scraper**: Bypasses anti-bot protections to perform a live "Top 100" scrape directly from the web.
+* **Multi-threaded GUI**: A Tkinter-based interface that prevents application freezing during long data-gathering tasks.
+* **Collaboration Analysis**: Multi-artist parsing to track collaboration trends and most frequent contributors.
+* **Sonic Profiling**: Distribution analysis of BPM (tempo) and Musical Keys across the charts.
+* **Market Share Tracking**: Analysis of record label dominance within the Top 100.
+* **Chart Movement**: Real-time tracking of "Rising Tracks" and momentum.
+* **Multimedia Integration**: Direct search and playback functionality for the most popular tracks via YouTube.
 
 ---
 
 ## Data Collection and Storage (Author #1)
 
-Data is collected from publicly accessible BeatStats chart pages.
+Data is collected from publicly accessible BeatStats chart pages. 
 
-Due to anti-bot protections that block automated requests, the program parses saved HTML source files from the chart pages using BeautifulSoup. The extracted data includes:
+While the program originally relied on manual HTML source parsing, it has been upgraded to include a **Selenium-driven automation engine** (`scraper.py`). This engine handles the complexities of dynamic web elements to extract:
 
-* rank
-* rise amount (chart movement)
-* artist names
-* track title
-* genre
-* points
-* days on chart
-* Beatport track link
+* **Rank & Momentum**: Current position and rise/fall spots.
+* **Artist & Title**: Full artist string parsing and track naming.
+* **Metadata**: Record Label, Release Date, BPM, Key, and Track Length.
+* **Performance Metrics**: Total Points and Days on Chart.
 
-The cleaned dataset is stored locally in CSV format for further analysis.
+The cleaned dataset is automatically stored in a structured directory: `data/processed/beatstats_100_report.csv`.
 
 ---
 
 ## Data Analysis and Visualization (Author #2)
 
-The dataset enables multiple forms of analysis, including:
+The dataset enables multiple forms of advanced musical and market analysis, including:
 
-* Most common genres in the Top 100
-* Most frequent artists and collaborations
-* Tracks with the highest popularity (points)
-* Tracks with the longest chart duration (days)
-* Rising tracks based on chart movement
-* Number of artists per track (collaboration trends)
+* **Genre/Label Distribution**: Identifying which genres and labels currently command the Top 100.
+* **Artist Collaboration Trends**: Analyzing how many artists contribute to a single trending track.
+* **Popularity vs. Longevity**: Using scatter plots to compare "Points" vs "Days on Chart."
+* **Sonic Distribution**: Understanding the preferred BPM ranges and Keys for modern electronic music.
 
-Visualizations include:
+### Implemented Visualization Features
 
-* Bar charts (top artists, genres)
-* Histograms (points, days)
-* Scatter plots (rank vs days)
-* Trend analysis of rising tracks
-
-### Implemented Features
-
-The application includes interactive analysis tools:
-
-- Top 10 genres displayed as a bar chart
-- Top 10 artists displayed as a bar chart
-- Scatter plot of points vs days on chart
-- Scatter plot of rank vs points
-- Average points by genre visualization
-- Identification of top rising tracks (popup display)
-- Ability to open the most popular song in a web browser (YouTube)
-
-These features allow users to explore music trends and identify popular and emerging tracks.
+- **Top 10 Genres/Labels**: Interactive bar charts showing market dominance.
+- **BPM Distribution**: Histogram displaying the most common tempo ranges.
+- **Key Distribution**: Pie chart visualizing the frequency of specific musical keys.
+- **Points vs Days**: Scatter plot analyzing the correlation between popularity and chart stay.
+- **Rising Tracks Tool**: Identification and display of tracks with the highest positive movement.
+- **YouTube Playback**: A feature that automatically searches for the #1 song's official music video.
 
 ---
 
 ## Interface (Tkinter)
 
-The program uses a Tkinter-based GUI with two main pages:
+The program uses a dual-page Tkinter GUI designed for ease of use during presentations:
 
-### 1. Data Collection Page
+### 1. Data Collection Page (HomePage)
+* **Start Live Scrape**: Triggers the automated web scraper.
+* **Load Existing CSV**: Quickly populates the table using historical data from `data/processed/`.
+* **Sortable Table**: View all 100 tracks in a sortable treeview (click headers to sort).
 
-* Load saved chart data
-* Automatically generate and update CSV files
-* View chart data in a sortable table
-* Inspect key metrics and summaries
-
-### 2. Analysis Page
-
-* Provides guidance for visualizations and analysis
-* Designed for data exploration and presentation
+### 2. Analysis Page (AnalysisPage)
+* Provides a suite of buttons to launch Matplotlib windows for all data visualizations.
+* Provides the "Play Top Song" feature for live demos.
 
 ---
 
 ## Installation
+
+1. **Clone the repository**:
+```bash
+git clone [https://github.com/DaviWicks/CS122Project.git](https://github.com/DaviWicks/CS122Project.git)
+cd CS122Project
 
 1. Clone the repository:
 
@@ -125,7 +103,7 @@ conda activate cs122
 3. Install dependencies:
 
 ```
-pip install pandas beautifulsoup4 lxml matplotlib
+pip install pandas beautifulsoup4 selenium matplotlib lxml
 ```
 
 ---
